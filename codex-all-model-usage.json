@@ -1604,8 +1604,8 @@
         "linksData": []
       },
       "customLegendColors": {},
-      "decimalPrecision": 0,
-      "description": "Failure counts use producer-native outcome boundaries. Codex response attempts exclude catalog refreshes and are attempt-level; Claude Code counts failed terminal LLM requests; Oh My Pi counts failed terminal chat operations. Compare each harness with its own history.",
+      "decimalPrecision": 1,
+      "description": "Failure rate is failed native operations divided by all native operations in each time bucket. Codex response attempts exclude catalog refreshes and are attempt-level; Claude Code counts terminal LLM requests; Oh My Pi counts terminal chat operations. Compare each harness with its own history.",
       "fillSpans": false,
       "id": "aa8f7070-9327-4b85-a746-e3aa2f4d36a5",
       "isLogScale": false,
@@ -1625,7 +1625,7 @@
             "disabled": false,
             "legend": "{{series}}",
             "name": "A",
-            "query": "WITH greatest(toUInt32(1),toUInt32(($end_timestamp_nano-$start_timestamp_nano)/1000000000/120)) AS bucket_seconds, native_outcomes AS (SELECT timestamp AS timestamp_nano, multiIf(resource.`service.name`::String='codex-app-server','Codex App',resource.`service.name`::String='codex_exec','Codex Exec','Codex CLI') AS series, NOT if(mapContains(attributes_bool,'success'),attributes_bool['success'],NOT (mapContains(attributes_string,'error.message') AND attributes_string['error.message']!='')) AS failed FROM signoz_logs.distributed_logs_v2 WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs') AND attributes_string['event.name']='codex.api_request' AND attributes_string['endpoint']='/responses' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' UNION ALL SELECT toUInt64(toUnixTimestamp64Nano(timestamp)),'Claude Code',has_error OR status_code_string='Error' FROM signoz_traces.distributed_signoz_index_v3 WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'claude-code' IN $service_name AND serviceName='claude-code' AND name='claude_code.llm_request' UNION ALL SELECT toUInt64(toUnixTimestamp64Nano(timestamp)),'OMP',has_error OR status_code_string='Error' FROM signoz_traces.distributed_signoz_index_v3 WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi' AND attributes_string['gen_ai.operation.name']='chat') SELECT toStartOfInterval(fromUnixTimestamp64Nano(timestamp_nano),toIntervalSecond(bucket_seconds)) AS timestamp, series, count() AS value FROM native_outcomes WHERE failed GROUP BY timestamp,series ORDER BY timestamp,series"
+            "query": "WITH greatest(toUInt32(1),toUInt32(($end_timestamp_nano-$start_timestamp_nano)/1000000000/120)) AS bucket_seconds, native_outcomes AS (SELECT timestamp AS timestamp_nano, multiIf(resource.`service.name`::String='codex-app-server','Codex App',resource.`service.name`::String='codex_exec','Codex Exec','Codex CLI') AS series, NOT if(mapContains(attributes_bool,'success'),attributes_bool['success'],NOT (mapContains(attributes_string,'error.message') AND attributes_string['error.message']!='')) AS failed FROM signoz_logs.distributed_logs_v2 WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs') AND attributes_string['event.name']='codex.api_request' AND attributes_string['endpoint']='/responses' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' UNION ALL SELECT toUInt64(toUnixTimestamp64Nano(timestamp)),'Claude Code',has_error OR status_code_string='Error' FROM signoz_traces.distributed_signoz_index_v3 WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'claude-code' IN $service_name AND serviceName='claude-code' AND name='claude_code.llm_request' UNION ALL SELECT toUInt64(toUnixTimestamp64Nano(timestamp)),'OMP',has_error OR status_code_string='Error' FROM signoz_traces.distributed_signoz_index_v3 WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi' AND attributes_string['gen_ai.operation.name']='chat') SELECT toStartOfInterval(fromUnixTimestamp64Nano(timestamp_nano),toIntervalSecond(bucket_seconds)) AS timestamp, series, 100*countIf(failed)/nullIf(count(),0) AS value FROM native_outcomes GROUP BY timestamp,series ORDER BY timestamp,series"
           }
         ],
         "id": "6e89cd07-5d88-4d32-a745-cf2f98979a32",
@@ -1694,11 +1694,11 @@
       ],
       "softMax": 0,
       "softMin": 0,
-      "stackedBarChart": true,
+      "stackedBarChart": false,
       "thresholds": [],
       "timePreferance": "GLOBAL_TIME",
-      "title": "Native Operation Failures Over Time",
-      "yAxisUnit": "short"
+      "title": "Native Operation Failure Rate Over Time",
+      "yAxisUnit": "%"
     },
     {
       "bucketCount": 30,
