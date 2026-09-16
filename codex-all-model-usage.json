@@ -1,5 +1,5 @@
 {
-  "description": "Outcome-first view of model token consumption, input-cache efficiency, conversations, reliability, and operational breakdowns.",
+  "description": "Outcome-first view of model token consumption, input-cache efficiency, conversations, reliability, and operational breakdowns.\nHow each is measured can be different at both provider and harness level, the data tries to normalise where possible, but check info icon for validity - use to identify operational issues rather than benchmark cross performance.",
   "image": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxOCAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0Ljk0OTQgMTMuOTQyQzE2LjIzMTggMTIuNDI1OCAxNy4zMjY4IDkuNzAyMiAxNi4xOTU2IDYuNTc0ODdDMTUuNjQ0MyA1LjA1MjQ1IDE1LjAyMTkgNC4yMDI0OSAxNC4yOTY5IDMuNjYyNTJDMTMuODU1NyAzLjMzMzc5IDEyLjA5MzMgMi41MDYzMyA5Ljc1OTY1IDIuODY3NTZDOC4wNTM0OSAzLjEzMjU1IDUuNzc0ODcgNC4yMDg3NCA0LjI5MzY5IDUuOTU5OUMyLjg1NzUyIDcuNjYxMDYgMS43NDg4MyA5LjAwNDc0IDEuNjk3NTggMTAuMzA5N0MxLjYzMTMzIDExLjk4ODMgMi44OTYyNyAxMy40MzA4IDMuMDUwMDEgMTMuNjY0NUMzLjMyMzc0IDE0LjA3OTUgNS4xOTExNSAxNi40NTE4IDguNjk5NzEgMTYuNTczMUMxMS43OTcgMTYuNjc5MyAxMy44MTQ0IDE1LjI4NDQgMTQuOTQ5NCAxMy45NDJaIiBmaWxsPSIjNDAzRDNFIi8+CjxwYXRoIGQ9Ik00LjU1MzYzIDIuNzM3NDdDMi45Mzc0NiAzLjg5MTE2IDEuMTIxMzEgNi4yNTEwMyAxLjQ0NzU0IDkuNTYwODZDMS42MDYyOCAxMS4xNzIgMi4wMDI1MSAxMi4xNDk1IDIuNTcxMjMgMTIuODUwN0MyLjkxNzQ2IDEzLjI3ODIgNC40MTk4OCAxNC41NDkzIDYuNzczNTEgMTQuNzM2OEM5LjE0NTg4IDE0LjkyNTYgMTAuOTQ5NSAxNC4zOTQ0IDEyLjgzMzIgMTMuMDg0NEMxNi42NjE3IDEwLjQyMDggMTYuMDk4IDYuMzkzNTMgMTUuOTM0MyA1LjkyNDhDMTUuNzcwNSA1LjQ1NjA3IDE0LjU0NDQgMi42OTYyMiAxMS4xNzMzIDEuNzE1MDJDOC4xOTg0NCAwLjg1MDA2OCA1Ljk4MzU1IDEuNzE1MDIgNC41NTM2MyAyLjczNzQ3WiIgZmlsbD0iIzVFNjM2NyIvPgo8cGF0aCBkPSJNNy4zOTM1MyAyLjk2MTA5QzUuNjE3MzcgMi44OTczNCAzLjkxOTk2IDQuMjg4NTIgMy43NTYyMiA2LjAwNTkzQzMuNTkyNDggNy43MjIwOSA0LjY1NDkyIDkuMDI5NTIgNi4zMDk4MyA5LjI5NTc2QzcuOTY0NzUgOS41NjA3NCA5Ljg3ODM5IDguNTU1OCAxMC4yNjM0IDYuNDUwOTFDMTAuNjYwOSA0LjI4MjI3IDkuMDg5NjkgMy4wMjIzNCA3LjM5MzUzIDIuOTYxMDlaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNy45NDIxNyA1LjkwMTE1QzcuOTQyMTcgNS45MDExNSA4LjM2OTY1IDUuODEyNCA4LjQ1NDY1IDUuMTgyNDRDOC41MzgzOSA0LjU2MjQ3IDguMjMwOTEgNC4wMzM3NSA3LjUxMzQ1IDMuODQzNzZDNi43MzM0OSAzLjYzNzUyIDYuMjA0NzcgNC4wNjYyNSA2LjA2NzI3IDQuNTE3NDdDNS44NzYwMyA1LjE0NDk0IDYuMTU4NTIgNS40NDM2NyA2LjE1ODUyIDUuNDQzNjdDNi4xNTg1MiA1LjQ0MzY3IDUuMzkzNTYgNS42Mjc0MSA1LjMzMjMxIDYuNTI5ODdDNS4yNzQ4MSA3LjM4MTA3IDUuODU2MDMgNy44Mzg1NSA2LjQzOTc1IDcuOTc4NTRDNy4xNjA5NiA4LjE1MjI4IDcuOTc4NDIgNy45NTQ3OSA4LjE3ODQxIDcuMDM0ODRDOC4zNDQ2NSA2LjI3NzM4IDcuOTQyMTcgNS45MDExNSA3Ljk0MjE3IDUuOTAxMTVaIiBmaWxsPSIjMzAzMDMwIi8+CjxwYXRoIGQ9Ik02LjczOTgzIDQuNzUzNjJDNi42NzEwOSA1LjAxMjM1IDYuODA4NTggNS4yNjIzNCA3LjA3ODU3IDUuMzMxMDlDNy4zNjk4IDUuNDA0ODMgNy42MzQ3OSA1LjMwODU5IDcuNzA2MDMgNS4wMTExQzcuNzY4NTMgNC43NDczNyA3LjY0MzU0IDQuNTE0ODggNy4zMzYwNSA0LjQzOTg4QzcuMDgzNTcgNC4zNzczOSA2LjgxNDgzIDQuNDcxMTMgNi43Mzk4MyA0Ljc1MzYyWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTYuOTU5NzggNi4wMzk3NEM2LjYzMjMgNS45Mzg0OSA2LjE5OTgyIDYuMDY0NzMgNi4xMzEwNyA2LjUwNDcxQzYuMDYyMzMgNi45NDQ2OSA2LjMyNjA2IDcuMTY5NjggNi42NzEwNCA3LjIzMjE3QzcuMDE2MDMgNy4yOTQ2NyA3LjM0MjI2IDcuMTEzNDMgNy40MDYwMSA2Ljc2MDk1QzcuNDY4NSA2LjQwOTcyIDcuMjg2MDEgNi4xMzk3MyA2Ljk1OTc4IDYuMDM5NzRaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K",
   "layout": [
     {
@@ -111,21 +111,21 @@
       "y": 22
     },
     {
-      "h": 8,
-      "i": "289dc171-1e6f-4a2f-b4b2-4e4c9ab0550d",
-      "moved": false,
-      "static": false,
-      "w": 12,
-      "x": 0,
-      "y": 40
-    },
-    {
       "h": 6,
       "i": "51d681e3-e8c9-48a7-bf91-d7b903299fc1",
       "moved": false,
       "static": false,
       "w": 6,
       "x": 0,
+      "y": 28
+    },
+    {
+      "h": 6,
+      "i": "aa8f7070-9327-4b85-a746-e3aa2f4d36a5",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 6,
       "y": 28
     },
     {
@@ -138,13 +138,13 @@
       "y": 34
     },
     {
-      "h": 6,
-      "i": "aa8f7070-9327-4b85-a746-e3aa2f4d36a5",
+      "h": 8,
+      "i": "289dc171-1e6f-4a2f-b4b2-4e4c9ab0550d",
       "moved": false,
       "static": false,
-      "w": 6,
-      "x": 6,
-      "y": 28
+      "w": 12,
+      "x": 0,
+      "y": 40
     }
   ],
   "panelMap": {},
@@ -171,11 +171,11 @@
       "order": 0,
       "queryValue": "",
       "selectedValue": [
-        "codex-app-server",
-        "codex_exec",
         "codex_cli_rs",
+        "codex-app-server",
+        "oh-my-pi",
         "claude-code",
-        "oh-my-pi"
+        "codex_exec"
       ],
       "showALLOption": true,
       "sort": "DISABLED",
@@ -205,116 +205,8 @@
       "panelTypes": "value",
       "query": {
         "builder": {
-          "queryData": [
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(input_token_count)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "A",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "A",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(input_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "B",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "B",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cache_creation_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "C",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "C",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cache_read_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "D",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "D",
-              "source": "",
-              "stepInterval": null
-            }
-          ],
-          "queryFormulas": [
-            {
-              "disabled": false,
-              "expression": "A+B+C+D",
-              "legend": "Input tokens",
-              "queryName": "F1"
-            }
-          ],
+          "queryData": [],
+          "queryFormulas": [],
           "queryTraceOperator": []
         },
         "clickhouse_sql": [
@@ -322,7 +214,7 @@
             "disabled": false,
             "legend": "",
             "name": "A",
-            "query": ""
+            "query": "WITH usage_events AS (\n  SELECT timestamp AS timestamp_nano, resource.`service.name`::String AS harness, attributes_string['conversation.id'] AS native_session_id, 'OpenAI' AS provider, attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT timestamp AS timestamp_nano, 'claude-code' AS harness, attributes_string['session.id'] AS native_session_id, 'Anthropic' AS provider, attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens, attributes_number['cache_read_tokens'] AS cached_input, attributes_number['output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND 'claude-code' IN $service_name AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request' AND attributes_string['session.id']!='' AND attributes_string['model']!=''\n  UNION ALL\n  SELECT toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano, 'oh-my-pi' AS harness, attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider, attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input, attributes_number['gen_ai.usage.output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat' AND attributes_string['gen_ai.conversation.id']!='' AND attributes_string['gen_ai.request.model']!='' AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT sum(input_tokens) AS `Input tokens` FROM usage_events"
           }
         ],
         "id": "6d3706f4-69d3-4e4f-8037-651f820d22fa",
@@ -334,7 +226,7 @@
             "query": ""
           }
         ],
-        "queryType": "builder",
+        "queryType": "clickhouse_sql",
         "unit": "short"
       },
       "selectedLogFields": [
@@ -417,66 +309,8 @@
       "panelTypes": "value",
       "query": {
         "builder": {
-          "queryData": [
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(output_token_count)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "A",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "A",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(output_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "B",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "B",
-              "source": "",
-              "stepInterval": null
-            }
-          ],
-          "queryFormulas": [
-            {
-              "disabled": false,
-              "expression": "A+B",
-              "legend": "Output tokens",
-              "queryName": "F1"
-            }
-          ],
+          "queryData": [],
+          "queryFormulas": [],
           "queryTraceOperator": []
         },
         "clickhouse_sql": [
@@ -484,7 +318,7 @@
             "disabled": false,
             "legend": "",
             "name": "A",
-            "query": ""
+            "query": "WITH usage_events AS (\n  SELECT timestamp AS timestamp_nano, resource.`service.name`::String AS harness, attributes_string['conversation.id'] AS native_session_id, 'OpenAI' AS provider, attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT timestamp AS timestamp_nano, 'claude-code' AS harness, attributes_string['session.id'] AS native_session_id, 'Anthropic' AS provider, attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens, attributes_number['cache_read_tokens'] AS cached_input, attributes_number['output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND 'claude-code' IN $service_name AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request' AND attributes_string['session.id']!='' AND attributes_string['model']!=''\n  UNION ALL\n  SELECT toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano, 'oh-my-pi' AS harness, attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider, attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input, attributes_number['gen_ai.usage.output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat' AND attributes_string['gen_ai.conversation.id']!='' AND attributes_string['gen_ai.request.model']!='' AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT sum(output_tokens) AS `Output tokens` FROM usage_events"
           }
         ],
         "id": "82ec53fa-c0be-4cfd-b018-f3c584cab516",
@@ -496,7 +330,7 @@
             "query": ""
           }
         ],
-        "queryType": "builder",
+        "queryType": "clickhouse_sql",
         "unit": "short"
       },
       "selectedLogFields": [
@@ -579,66 +413,8 @@
       "panelTypes": "value",
       "query": {
         "builder": {
-          "queryData": [
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cached_token_count)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "A",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "A",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cache_read_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "B",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "B",
-              "source": "",
-              "stepInterval": null
-            }
-          ],
-          "queryFormulas": [
-            {
-              "disabled": false,
-              "expression": "A+B",
-              "legend": "Cached input",
-              "queryName": "F1"
-            }
-          ],
+          "queryData": [],
+          "queryFormulas": [],
           "queryTraceOperator": []
         },
         "clickhouse_sql": [
@@ -646,7 +422,7 @@
             "disabled": false,
             "legend": "",
             "name": "A",
-            "query": ""
+            "query": "WITH usage_events AS (\n  SELECT timestamp AS timestamp_nano, resource.`service.name`::String AS harness, attributes_string['conversation.id'] AS native_session_id, 'OpenAI' AS provider, attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT timestamp AS timestamp_nano, 'claude-code' AS harness, attributes_string['session.id'] AS native_session_id, 'Anthropic' AS provider, attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens, attributes_number['cache_read_tokens'] AS cached_input, attributes_number['output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND 'claude-code' IN $service_name AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request' AND attributes_string['session.id']!='' AND attributes_string['model']!=''\n  UNION ALL\n  SELECT toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano, 'oh-my-pi' AS harness, attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider, attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input, attributes_number['gen_ai.usage.output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat' AND attributes_string['gen_ai.conversation.id']!='' AND attributes_string['gen_ai.request.model']!='' AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT sum(cached_input) AS `Cached input` FROM usage_events"
           }
         ],
         "id": "a5a7eee4-e9f2-47ca-8f03-6e46530953cc",
@@ -658,7 +434,7 @@
             "query": ""
           }
         ],
-        "queryType": "builder",
+        "queryType": "clickhouse_sql",
         "unit": "short"
       },
       "selectedLogFields": [
@@ -741,116 +517,8 @@
       "panelTypes": "value",
       "query": {
         "builder": {
-          "queryData": [
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(input_token_count)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "A",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "A",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cached_token_count)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "B",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "B",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(input_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "C",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "C",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cache_creation_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "D",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "D",
-              "source": "",
-              "stepInterval": null
-            }
-          ],
-          "queryFormulas": [
-            {
-              "disabled": false,
-              "expression": "(A-B)+C+D",
-              "legend": "Uncached input",
-              "queryName": "F1"
-            }
-          ],
+          "queryData": [],
+          "queryFormulas": [],
           "queryTraceOperator": []
         },
         "clickhouse_sql": [
@@ -858,7 +526,7 @@
             "disabled": false,
             "legend": "",
             "name": "A",
-            "query": ""
+            "query": "WITH usage_events AS (\n  SELECT timestamp AS timestamp_nano, resource.`service.name`::String AS harness, attributes_string['conversation.id'] AS native_session_id, 'OpenAI' AS provider, attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT timestamp AS timestamp_nano, 'claude-code' AS harness, attributes_string['session.id'] AS native_session_id, 'Anthropic' AS provider, attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens, attributes_number['cache_read_tokens'] AS cached_input, attributes_number['output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND 'claude-code' IN $service_name AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request' AND attributes_string['session.id']!='' AND attributes_string['model']!=''\n  UNION ALL\n  SELECT toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano, 'oh-my-pi' AS harness, attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider, attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input, attributes_number['gen_ai.usage.output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat' AND attributes_string['gen_ai.conversation.id']!='' AND attributes_string['gen_ai.request.model']!='' AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT sum(input_tokens)-sum(cached_input) AS `Uncached input` FROM usage_events"
           }
         ],
         "id": "f66b2c68-45d8-45c6-8d07-714b31115ad0",
@@ -870,7 +538,7 @@
             "query": ""
           }
         ],
-        "queryType": "builder",
+        "queryType": "clickhouse_sql",
         "unit": "short"
       },
       "selectedLogFields": [
@@ -953,141 +621,8 @@
       "panelTypes": "value",
       "query": {
         "builder": {
-          "queryData": [
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(input_token_count)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "A",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "A",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cached_token_count)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "B",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "B",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(input_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "C",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "C",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cache_creation_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "D",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "D",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cache_read_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "E",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "E",
-              "source": "",
-              "stepInterval": null
-            }
-          ],
-          "queryFormulas": [
-            {
-              "disabled": false,
-              "expression": "((B+E)/(A+C+D+E))*100",
-              "legend": "Cache utilization",
-              "queryName": "F1"
-            }
-          ],
+          "queryData": [],
+          "queryFormulas": [],
           "queryTraceOperator": []
         },
         "clickhouse_sql": [
@@ -1095,7 +630,7 @@
             "disabled": false,
             "legend": "",
             "name": "A",
-            "query": ""
+            "query": "WITH usage_events AS (\n  SELECT timestamp AS timestamp_nano, resource.`service.name`::String AS harness, attributes_string['conversation.id'] AS native_session_id, 'OpenAI' AS provider, attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT timestamp AS timestamp_nano, 'claude-code' AS harness, attributes_string['session.id'] AS native_session_id, 'Anthropic' AS provider, attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens, attributes_number['cache_read_tokens'] AS cached_input, attributes_number['output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND 'claude-code' IN $service_name AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request' AND attributes_string['session.id']!='' AND attributes_string['model']!=''\n  UNION ALL\n  SELECT toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano, 'oh-my-pi' AS harness, attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider, attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input, attributes_number['gen_ai.usage.output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat' AND attributes_string['gen_ai.conversation.id']!='' AND attributes_string['gen_ai.request.model']!='' AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT 100*sum(cached_input)/nullIf(sum(input_tokens),0) AS `Input cache utilization` FROM usage_events"
           }
         ],
         "id": "45636a98-33d7-4dbf-9e62-4628c1c46abb",
@@ -1107,7 +642,7 @@
             "query": ""
           }
         ],
-        "queryType": "builder",
+        "queryType": "clickhouse_sql",
         "unit": "%"
       },
       "selectedLogFields": [
@@ -1179,7 +714,7 @@
       },
       "customLegendColors": {},
       "decimalPrecision": 1,
-      "description": "Distinct native sessions across selected harnesses; identity is scoped by harness.",
+      "description": "Distinct (harness, native session) pairs with at least one accepted usage event in the selected range. Identity is harness-scoped: Codex conversation.id, Claude Code session.id, and Oh My Pi gen_ai.conversation.id.",
       "fillSpans": false,
       "id": "12cc3a3b-bc19-4f76-8862-a1493c9b0481",
       "isLogScale": false,
@@ -1199,7 +734,7 @@
             "disabled": false,
             "legend": "",
             "name": "A",
-            "query": "WITH usage_events AS (\n  SELECT\n    timestamp AS timestamp_nano,\n    resource.`service.name`::String AS harness,\n    attributes_string['conversation.id'] AS native_session_id,\n    'OpenAI' AS provider,\n    attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event'\n    AND attributes_string['conversation.id']!=''\n    AND attributes_string['model']!=''\n    AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT\n    timestamp AS timestamp_nano,\n    'claude-code' AS harness,\n    attributes_string['session.id'] AS native_session_id,\n    'Anthropic' AS provider,\n    attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens,\n    attributes_number['cache_read_tokens'] AS cached_input,\n    attributes_number['output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND 'claude-code' IN $service_name\n    AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request'\n    AND attributes_string['session.id']!=''\n    AND attributes_string['model']!=''\n  UNION ALL\n  SELECT\n    toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano,\n    'oh-my-pi' AS harness,\n    attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider,\n    attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input,\n    attributes_number['gen_ai.usage.output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n    AND 'oh-my-pi' IN $service_name\n    AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat'\n    AND attributes_string['gen_ai.conversation.id']!=''\n    AND attributes_string['gen_ai.request.model']!=''\n    AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT uniqExact(tuple(harness,native_session_id)) AS `Distinct sessions` FROM usage_events"
+            "query": "WITH usage_events AS (\n  SELECT timestamp AS timestamp_nano, resource.`service.name`::String AS harness, attributes_string['conversation.id'] AS native_session_id, 'OpenAI' AS provider, attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT timestamp AS timestamp_nano, 'claude-code' AS harness, attributes_string['session.id'] AS native_session_id, 'Anthropic' AS provider, attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens, attributes_number['cache_read_tokens'] AS cached_input, attributes_number['output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND 'claude-code' IN $service_name AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request' AND attributes_string['session.id']!='' AND attributes_string['model']!=''\n  UNION ALL\n  SELECT toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano, 'oh-my-pi' AS harness, attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider, attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input, attributes_number['gen_ai.usage.output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat' AND attributes_string['gen_ai.conversation.id']!='' AND attributes_string['gen_ai.request.model']!='' AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT uniqExact(tuple(harness,native_session_id)) AS `Usage-active sessions` FROM usage_events"
           }
         ],
         "id": "1b0e2490-0bd9-4eca-a434-aec1e4bc3735",
@@ -1271,7 +806,7 @@
       "stackedBarChart": false,
       "thresholds": [],
       "timePreferance": "GLOBAL_TIME",
-      "title": "Distinct Sessions",
+      "title": "Usage-Active Sessions",
       "yAxisUnit": "short"
     },
     {
@@ -1283,7 +818,7 @@
       },
       "customLegendColors": {},
       "decimalPrecision": 1,
-      "description": "Daily normalized input, cache-read input, and output tokens across Codex, Claude Code, and Oh My Pi. Ranges shorter than one day intentionally remain blank.",
+      "description": "Daily mutually exclusive uncached input, cached input, and output. Stack height is total processed tokens.",
       "fillSpans": false,
       "id": "810d0d80-b642-48fb-bd03-a649bc3ad1cb",
       "isLogScale": false,
@@ -1294,203 +829,8 @@
       "panelTypes": "graph",
       "query": {
         "builder": {
-          "queryData": [
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(input_token_count)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "A",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "A",
-              "source": "",
-              "stepInterval": 86400
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cached_token_count)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "B",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "B",
-              "source": "",
-              "stepInterval": 86400
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(output_token_count)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "C",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "C",
-              "source": "",
-              "stepInterval": 86400
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(input_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "D",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "D",
-              "source": "",
-              "stepInterval": 86400
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cache_creation_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "E",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "E",
-              "source": "",
-              "stepInterval": 86400
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cache_read_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "F",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "F",
-              "source": "",
-              "stepInterval": 86400
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(output_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "G",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "G",
-              "source": "",
-              "stepInterval": 86400
-            }
-          ],
-          "queryFormulas": [
-            {
-              "disabled": false,
-              "expression": "A+D+E+F",
-              "legend": "Input tokens",
-              "queryName": "F1"
-            },
-            {
-              "disabled": false,
-              "expression": "B+F",
-              "legend": "Cached input",
-              "queryName": "F2"
-            },
-            {
-              "disabled": false,
-              "expression": "C+G",
-              "legend": "Output tokens",
-              "queryName": "F3"
-            }
-          ],
+          "queryData": [],
+          "queryFormulas": [],
           "queryTraceOperator": []
         },
         "clickhouse_sql": [
@@ -1498,7 +838,7 @@
             "disabled": false,
             "legend": "",
             "name": "A",
-            "query": ""
+            "query": "WITH usage_events AS (\n  SELECT timestamp AS timestamp_nano, resource.`service.name`::String AS harness, attributes_string['conversation.id'] AS native_session_id, 'OpenAI' AS provider, attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT timestamp AS timestamp_nano, 'claude-code' AS harness, attributes_string['session.id'] AS native_session_id, 'Anthropic' AS provider, attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens, attributes_number['cache_read_tokens'] AS cached_input, attributes_number['output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND 'claude-code' IN $service_name AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request' AND attributes_string['session.id']!='' AND attributes_string['model']!=''\n  UNION ALL\n  SELECT toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano, 'oh-my-pi' AS harness, attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider, attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input, attributes_number['gen_ai.usage.output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat' AND attributes_string['gen_ai.conversation.id']!='' AND attributes_string['gen_ai.request.model']!='' AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT toStartOfDay(fromUnixTimestamp64Nano(timestamp_nano)) AS timestamp, sum(input_tokens)-sum(cached_input) AS `Uncached input`, sum(cached_input) AS `Cached input`, sum(output_tokens) AS `Output tokens` FROM usage_events WHERE $end_timestamp_nano-$start_timestamp_nano >= 86400000000000 GROUP BY timestamp ORDER BY timestamp"
           }
         ],
         "id": "10c74615-91d7-4699-ad58-e7efa0e91a50",
@@ -1510,7 +850,7 @@
             "query": ""
           }
         ],
-        "queryType": "builder",
+        "queryType": "clickhouse_sql",
         "unit": "short"
       },
       "selectedLogFields": [
@@ -1593,141 +933,8 @@
       "panelTypes": "graph",
       "query": {
         "builder": {
-          "queryData": [
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(input_token_count)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "A",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "A",
-              "source": "",
-              "stepInterval": 86400
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cached_token_count)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "B",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "B",
-              "source": "",
-              "stepInterval": 86400
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(input_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "C",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "C",
-              "source": "",
-              "stepInterval": 86400
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cache_creation_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "D",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "D",
-              "source": "",
-              "stepInterval": 86400
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cache_read_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "E",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": null,
-              "orderBy": [],
-              "queryName": "E",
-              "source": "",
-              "stepInterval": 86400
-            }
-          ],
-          "queryFormulas": [
-            {
-              "disabled": false,
-              "expression": "((B+E)/(A+C+D+E))*100",
-              "legend": "Cache utilization",
-              "queryName": "F1"
-            }
-          ],
+          "queryData": [],
+          "queryFormulas": [],
           "queryTraceOperator": []
         },
         "clickhouse_sql": [
@@ -1735,7 +942,7 @@
             "disabled": false,
             "legend": "",
             "name": "A",
-            "query": ""
+            "query": "WITH usage_events AS (\n  SELECT timestamp AS timestamp_nano, resource.`service.name`::String AS harness, attributes_string['conversation.id'] AS native_session_id, 'OpenAI' AS provider, attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT timestamp AS timestamp_nano, 'claude-code' AS harness, attributes_string['session.id'] AS native_session_id, 'Anthropic' AS provider, attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens, attributes_number['cache_read_tokens'] AS cached_input, attributes_number['output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND 'claude-code' IN $service_name AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request' AND attributes_string['session.id']!='' AND attributes_string['model']!=''\n  UNION ALL\n  SELECT toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano, 'oh-my-pi' AS harness, attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider, attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input, attributes_number['gen_ai.usage.output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat' AND attributes_string['gen_ai.conversation.id']!='' AND attributes_string['gen_ai.request.model']!='' AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT toStartOfDay(fromUnixTimestamp64Nano(timestamp_nano)) AS timestamp, 100*sum(cached_input)/nullIf(sum(input_tokens),0) AS `Input cache utilization` FROM usage_events WHERE $end_timestamp_nano-$start_timestamp_nano >= 86400000000000 GROUP BY timestamp ORDER BY timestamp"
           }
         ],
         "id": "067c82ba-30f0-4b7a-aef5-0f684b50cc63",
@@ -1747,7 +954,7 @@
             "query": ""
           }
         ],
-        "queryType": "builder",
+        "queryType": "clickhouse_sql",
         "unit": "%"
       },
       "selectedLogFields": [
@@ -1814,26 +1021,26 @@
       "bucketCount": 30,
       "bucketWidth": 0,
       "columnUnits": {
-        "Input tokens": "short",
+        "Cache utilization": "%",
         "Cached input": "short",
-        "Model calls": "short",
+        "Input tokens": "short",
         "Uncached input": "short",
-        "Cache utilization": "%"
+        "Completed operations": "short"
       },
       "columnWidths": {
-        "service": 180,
-        "Input tokens": 145,
+        "Cache utilization": 145,
         "Cached input": 145,
-        "Model calls": 145,
+        "Input tokens": 145,
         "Uncached input": 145,
-        "Cache utilization": 145
+        "service": 180,
+        "Completed operations": 145
       },
       "contextLinks": {
         "linksData": []
       },
       "customLegendColors": {},
       "decimalPrecision": 1,
-      "description": "Normalized input-token and cache efficiency totals by harness.",
+      "description": "Normalized cache efficiency by harness. Completed operations count accepted producer-native usage events, not a shared provider request identifier.",
       "fillSpans": false,
       "id": "7ff2a6e9-79f3-4268-bebb-19c8341b1d5e",
       "isLogScale": false,
@@ -1844,278 +1051,8 @@
       "panelTypes": "table",
       "query": {
         "builder": {
-          "queryData": [
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(input_token_count)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "A",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
-              },
-              "functions": [],
-              "groupBy": [
-                {
-                  "dataType": "string",
-                  "id": "service.name--string--resource",
-                  "isColumn": false,
-                  "isJSON": false,
-                  "key": "service.name",
-                  "type": "resource"
-                }
-              ],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": 50,
-              "orderBy": [],
-              "queryName": "A",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cached_token_count)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "B",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
-              },
-              "functions": [],
-              "groupBy": [
-                {
-                  "dataType": "string",
-                  "id": "service.name--string--resource",
-                  "isColumn": false,
-                  "isJSON": false,
-                  "key": "service.name",
-                  "type": "resource"
-                }
-              ],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": 50,
-              "orderBy": [],
-              "queryName": "B",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "count_distinct(call_id)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "C",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
-              },
-              "functions": [],
-              "groupBy": [
-                {
-                  "dataType": "string",
-                  "id": "service.name--string--resource",
-                  "isColumn": false,
-                  "isJSON": false,
-                  "key": "service.name",
-                  "type": "resource"
-                }
-              ],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": 50,
-              "orderBy": [],
-              "queryName": "C",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(input_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "D",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [
-                {
-                  "dataType": "string",
-                  "id": "service.name--string--resource",
-                  "isColumn": false,
-                  "isJSON": false,
-                  "key": "service.name",
-                  "type": "resource"
-                }
-              ],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": 50,
-              "orderBy": [],
-              "queryName": "D",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cache_creation_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "E",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [
-                {
-                  "dataType": "string",
-                  "id": "service.name--string--resource",
-                  "isColumn": false,
-                  "isJSON": false,
-                  "key": "service.name",
-                  "type": "resource"
-                }
-              ],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": 50,
-              "orderBy": [],
-              "queryName": "E",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "sum(cache_read_tokens)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "F",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [
-                {
-                  "dataType": "string",
-                  "id": "service.name--string--resource",
-                  "isColumn": false,
-                  "isJSON": false,
-                  "key": "service.name",
-                  "type": "resource"
-                }
-              ],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": 50,
-              "orderBy": [],
-              "queryName": "F",
-              "source": "",
-              "stepInterval": null
-            },
-            {
-              "aggregations": [
-                {
-                  "expression": "count_distinct(request_id)",
-                  "alias": ""
-                }
-              ],
-              "dataSource": "logs",
-              "disabled": true,
-              "expression": "G",
-              "filter": {
-                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
-              },
-              "functions": [],
-              "groupBy": [
-                {
-                  "dataType": "string",
-                  "id": "service.name--string--resource",
-                  "isColumn": false,
-                  "isJSON": false,
-                  "key": "service.name",
-                  "type": "resource"
-                }
-              ],
-              "having": {
-                "expression": ""
-              },
-              "legend": "",
-              "limit": 50,
-              "orderBy": [],
-              "queryName": "G",
-              "source": "",
-              "stepInterval": null
-            }
-          ],
-          "queryFormulas": [
-            {
-              "disabled": false,
-              "expression": "A+D+E+F",
-              "legend": "Input tokens",
-              "queryName": "F1"
-            },
-            {
-              "disabled": false,
-              "expression": "B+F",
-              "legend": "Cached input",
-              "queryName": "F2"
-            },
-            {
-              "disabled": false,
-              "expression": "C+G",
-              "legend": "Model calls",
-              "queryName": "F3"
-            },
-            {
-              "disabled": false,
-              "expression": "F1-F2",
-              "legend": "Uncached input",
-              "queryName": "F4"
-            },
-            {
-              "disabled": false,
-              "expression": "(F2/F1)*100",
-              "legend": "Cache utilization",
-              "queryName": "F5"
-            }
-          ],
+          "queryData": [],
+          "queryFormulas": [],
           "queryTraceOperator": []
         },
         "clickhouse_sql": [
@@ -2123,7 +1060,7 @@
             "disabled": false,
             "legend": "",
             "name": "A",
-            "query": "WITH usage AS (\n  SELECT resource.`service.name`::String AS service,\n    if(service IN ('codex-app-server','codex_exec','codex_cli_rs'), if(mapContains(attributes_number,'input_token_count'), attributes_number['input_token_count'], toFloat64OrZero(attributes_string['input_token_count'])), attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens']) AS total_input,\n    if(service IN ('codex-app-server','codex_exec','codex_cli_rs'), if(mapContains(attributes_number,'cached_token_count'), attributes_number['cached_token_count'], toFloat64OrZero(attributes_string['cached_token_count'])), attributes_number['cache_read_tokens']) AS cached_input\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name\n    AND ((resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs') AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count')))\n      OR (resource.`service.name`::String IN ('claude-code','oh-my-pi') AND attributes_string['event.name']='api_request'))\n), calls AS (\n  SELECT resource.`service.name`::String AS service, attributes_string['call_id'] AS request_id FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs') AND attributes_string['call_id']!=''\n  UNION ALL\n  SELECT resource.`service.name`::String AS service, attributes_string['request_id'] AS request_id FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('claude-code','oh-my-pi') AND attributes_string['event.name']='api_request' AND attributes_string['request_id']!=''\n), usage_agg AS (\n  SELECT service,sum(total_input) total_input,sum(cached_input) cached_input FROM usage GROUP BY service\n), call_agg AS (\n  SELECT service,uniqExact(request_id) model_calls FROM calls GROUP BY service\n)\nSELECT u.service,u.total_input AS `Input tokens`,u.cached_input AS `Cached input`,coalesce(c.model_calls,0) AS `Model calls`,u.total_input-u.cached_input AS `Uncached input`,round(100*u.cached_input/nullIf(u.total_input,0),1) AS `Cache utilization`\nFROM usage_agg u LEFT JOIN call_agg c USING service\nORDER BY u.total_input DESC"
+            "query": "WITH usage_events AS (\n  SELECT timestamp AS timestamp_nano, resource.`service.name`::String AS harness, attributes_string['conversation.id'] AS native_session_id, 'OpenAI' AS provider, attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT timestamp AS timestamp_nano, 'claude-code' AS harness, attributes_string['session.id'] AS native_session_id, 'Anthropic' AS provider, attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens, attributes_number['cache_read_tokens'] AS cached_input, attributes_number['output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND 'claude-code' IN $service_name AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request' AND attributes_string['session.id']!='' AND attributes_string['model']!=''\n  UNION ALL\n  SELECT toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano, 'oh-my-pi' AS harness, attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider, attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input, attributes_number['gen_ai.usage.output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat' AND attributes_string['gen_ai.conversation.id']!='' AND attributes_string['gen_ai.request.model']!='' AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT harness AS `Harness`, sum(input_tokens) AS `Input tokens`, sum(cached_input) AS `Cached input`, sum(completed_operations) AS `Completed operations`, sum(input_tokens)-sum(cached_input) AS `Uncached input`, round(100*sum(cached_input)/nullIf(sum(input_tokens),0),1) AS `Cache utilization` FROM usage_events GROUP BY harness ORDER BY `Input tokens` DESC"
           }
         ],
         "id": "ceed6970-4526-4807-a9c6-097b05fa8452",
@@ -2202,26 +1139,26 @@
       "bucketCount": 30,
       "bucketWidth": 0,
       "columnUnits": {
-        "Input tokens": "short",
+        "Cache utilization": "%",
         "Cached input": "short",
-        "Model calls": "short",
+        "Input tokens": "short",
         "Uncached input": "short",
-        "Cache utilization": "%"
+        "Completed operations": "short"
       },
       "columnWidths": {
-        "model": 180,
-        "Input tokens": 145,
+        "Cache utilization": 145,
         "Cached input": 145,
-        "Model calls": 145,
+        "Input tokens": 145,
         "Uncached input": 145,
-        "Cache utilization": 145
+        "model": 145,
+        "Completed operations": 145
       },
       "contextLinks": {
         "linksData": []
       },
       "customLegendColors": {},
       "decimalPrecision": 1,
-      "description": "Normalized input-token and cache efficiency totals by model.",
+      "description": "Normalized cache efficiency by model. Completed operations count accepted producer-native usage events, not a shared provider request identifier.",
       "fillSpans": false,
       "id": "c43b6bf1-e10e-4b46-8353-e3118209879d",
       "isLogScale": false,
@@ -2241,7 +1178,7 @@
             "disabled": false,
             "legend": "",
             "name": "A",
-            "query": "WITH usage AS (\n  SELECT attributes_string['model'] AS model,\n    if(resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs'),if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])),attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens']) AS total_input,\n    if(resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs'),if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])),attributes_number['cache_read_tokens']) AS cached_input\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND attributes_string['model']!=''\n    AND ((resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs') AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count')))\n      OR (resource.`service.name`::String IN ('claude-code','oh-my-pi') AND attributes_string['event.name']='api_request'))\n), calls AS (\n  SELECT attributes_string['model'] AS model,attributes_string['call_id'] AS request_id\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['model']!='' AND attributes_string['call_id']!=''\n  UNION ALL\n  SELECT attributes_string['model'] AS model,attributes_string['request_id'] AS request_id\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND resource.`service.name`::String IN ('claude-code','oh-my-pi')\n    AND attributes_string['event.name']='api_request'\n    AND attributes_string['model']!='' AND attributes_string['request_id']!=''\n), usage_agg AS (\n  SELECT model,sum(total_input) total_input,sum(cached_input) cached_input FROM usage GROUP BY model\n), call_agg AS (\n  SELECT model,uniqExact(request_id) model_calls FROM calls GROUP BY model\n)\nSELECT u.model,u.total_input AS `Input tokens`,u.cached_input AS `Cached input`,coalesce(c.model_calls,0) AS `Model calls`,u.total_input-u.cached_input AS `Uncached input`,round(100*u.cached_input/nullIf(u.total_input,0),1) AS `Cache utilization`\nFROM usage_agg u LEFT JOIN call_agg c USING model\nORDER BY u.total_input DESC"
+            "query": "WITH usage_events AS (\n  SELECT timestamp AS timestamp_nano, resource.`service.name`::String AS harness, attributes_string['conversation.id'] AS native_session_id, 'OpenAI' AS provider, attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT timestamp AS timestamp_nano, 'claude-code' AS harness, attributes_string['session.id'] AS native_session_id, 'Anthropic' AS provider, attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens, attributes_number['cache_read_tokens'] AS cached_input, attributes_number['output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND 'claude-code' IN $service_name AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request' AND attributes_string['session.id']!='' AND attributes_string['model']!=''\n  UNION ALL\n  SELECT toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano, 'oh-my-pi' AS harness, attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider, attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input, attributes_number['gen_ai.usage.output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat' AND attributes_string['gen_ai.conversation.id']!='' AND attributes_string['gen_ai.request.model']!='' AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT model AS `Model`, sum(input_tokens) AS `Input tokens`, sum(cached_input) AS `Cached input`, sum(completed_operations) AS `Completed operations`, sum(input_tokens)-sum(cached_input) AS `Uncached input`, round(100*sum(cached_input)/nullIf(sum(input_tokens),0),1) AS `Cache utilization` FROM usage_events GROUP BY model ORDER BY `Input tokens` DESC"
           }
         ],
         "id": "e5ec5e76-f289-460d-98f2-aa8758d43c8e",
@@ -2320,24 +1257,24 @@
       "bucketCount": 30,
       "bucketWidth": 0,
       "columnUnits": {
-        "Input tokens": "short",
+        "Cache utilization": "%",
         "Cached input": "short",
-        "Output tokens": "short",
         "Completed model calls": "short",
-        "Uncached input": "short",
-        "Cache utilization": "%"
+        "Input tokens": "short",
+        "Output tokens": "short",
+        "Uncached input": "short"
       },
       "columnWidths": {
-        "Session": 230,
-        "Harness": 155,
-        "Provider": 120,
-        "Model": 180,
-        "Input tokens": 145,
+        "Cache utilization": 145,
         "Cached input": 145,
+        "Completed model calls": 145,
+        "Harness": 145,
+        "Input tokens": 145,
+        "Model": 145,
         "Output tokens": 145,
-        "Completed model calls": 165,
-        "Uncached input": 145,
-        "Cache utilization": 145
+        "Provider": 145,
+        "Session": 145,
+        "Uncached input": 145
       },
       "contextLinks": {
         "linksData": []
@@ -2364,7 +1301,7 @@
             "disabled": false,
             "legend": "",
             "name": "A",
-            "query": "WITH usage_events AS (\n  SELECT\n    timestamp AS timestamp_nano,\n    resource.`service.name`::String AS harness,\n    attributes_string['conversation.id'] AS native_session_id,\n    'OpenAI' AS provider,\n    attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event'\n    AND attributes_string['conversation.id']!=''\n    AND attributes_string['model']!=''\n    AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT\n    timestamp AS timestamp_nano,\n    'claude-code' AS harness,\n    attributes_string['session.id'] AS native_session_id,\n    'Anthropic' AS provider,\n    attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens,\n    attributes_number['cache_read_tokens'] AS cached_input,\n    attributes_number['output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND 'claude-code' IN $service_name\n    AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request'\n    AND attributes_string['session.id']!=''\n    AND attributes_string['model']!=''\n  UNION ALL\n  SELECT\n    toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano,\n    'oh-my-pi' AS harness,\n    attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider,\n    attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input,\n    attributes_number['gen_ai.usage.output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n    AND 'oh-my-pi' IN $service_name\n    AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat'\n    AND attributes_string['gen_ai.conversation.id']!=''\n    AND attributes_string['gen_ai.request.model']!=''\n    AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT\n  native_session_id AS `Session`,\n  harness AS `Harness`,\n  provider AS `Provider`,\n  model AS `Model`,\n  sum(input_tokens) AS `Input tokens`,\n  sum(cached_input) AS `Cached input`,\n  sum(output_tokens) AS `Output tokens`,\n  sum(completed_model_calls) AS `Completed model calls`,\n  sum(input_tokens)-sum(cached_input) AS `Uncached input`,\n  round(100*sum(cached_input)/nullIf(sum(input_tokens),0),1) AS `Cache utilization`\nFROM usage_events\nGROUP BY harness,native_session_id,provider,model\nORDER BY `Input tokens` DESC\nLIMIT 20"
+            "query": "WITH usage_events AS (\n  SELECT timestamp AS timestamp_nano, resource.`service.name`::String AS harness, attributes_string['conversation.id'] AS native_session_id, 'OpenAI' AS provider, attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT timestamp AS timestamp_nano, 'claude-code' AS harness, attributes_string['session.id'] AS native_session_id, 'Anthropic' AS provider, attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens, attributes_number['cache_read_tokens'] AS cached_input, attributes_number['output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND 'claude-code' IN $service_name AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request' AND attributes_string['session.id']!='' AND attributes_string['model']!=''\n  UNION ALL\n  SELECT toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano, 'oh-my-pi' AS harness, attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider, attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input, attributes_number['gen_ai.usage.output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat' AND attributes_string['gen_ai.conversation.id']!='' AND attributes_string['gen_ai.request.model']!='' AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT native_session_id AS `Session`, harness AS `Harness`, provider AS `Provider`, model AS `Model`, sum(input_tokens) AS `Input tokens`, sum(cached_input) AS `Cached input`, sum(output_tokens) AS `Output tokens`, sum(completed_operations) AS `Completed model calls`, sum(input_tokens)-sum(cached_input) AS `Uncached input`, round(100*sum(cached_input)/nullIf(sum(input_tokens),0),1) AS `Cache utilization` FROM usage_events GROUP BY harness,native_session_id,provider,model ORDER BY `Input tokens` DESC LIMIT 20"
           }
         ],
         "id": "33473f14-e03b-4aa2-84b3-b74315bba654",
@@ -2448,7 +1385,7 @@
       },
       "customLegendColors": {},
       "decimalPrecision": 1,
-      "description": "Active distinct native sessions per time bucket across selected harnesses.",
+      "description": "Distinct harness-scoped usage-active session pairs in each time bucket. This measures activity in the bucket, not starts or concurrency; a session can appear in multiple buckets. Identity keys: Codex conversation.id, Claude Code session.id, and Oh My Pi gen_ai.conversation.id.",
       "fillSpans": false,
       "id": "f16c708c-bd46-4a97-a7b0-505f861a91b6",
       "isLogScale": false,
@@ -2468,7 +1405,7 @@
             "disabled": false,
             "legend": "Distinct sessions",
             "name": "A",
-            "query": "WITH\n  greatest(toUInt32(1),toUInt32(($end_timestamp_nano-$start_timestamp_nano)/1000000000/120)) AS bucket_seconds,\n  usage_events AS (\n  SELECT\n    timestamp AS timestamp_nano,\n    resource.`service.name`::String AS harness,\n    attributes_string['conversation.id'] AS native_session_id,\n    'OpenAI' AS provider,\n    attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event'\n    AND attributes_string['conversation.id']!=''\n    AND attributes_string['model']!=''\n    AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT\n    timestamp AS timestamp_nano,\n    'claude-code' AS harness,\n    attributes_string['session.id'] AS native_session_id,\n    'Anthropic' AS provider,\n    attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens,\n    attributes_number['cache_read_tokens'] AS cached_input,\n    attributes_number['output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND 'claude-code' IN $service_name\n    AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request'\n    AND attributes_string['session.id']!=''\n    AND attributes_string['model']!=''\n  UNION ALL\n  SELECT\n    toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano,\n    'oh-my-pi' AS harness,\n    attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider,\n    attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input,\n    attributes_number['gen_ai.usage.output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n    AND 'oh-my-pi' IN $service_name\n    AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat'\n    AND attributes_string['gen_ai.conversation.id']!=''\n    AND attributes_string['gen_ai.request.model']!=''\n    AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT toStartOfInterval(fromUnixTimestamp64Nano(timestamp_nano),toIntervalSecond(bucket_seconds)) AS timestamp,\n  uniqExact(tuple(harness,native_session_id)) AS `Distinct sessions`\nFROM usage_events\nGROUP BY timestamp\nORDER BY timestamp"
+            "query": "WITH usage_events AS (\n  SELECT timestamp AS timestamp_nano, resource.`service.name`::String AS harness, attributes_string['conversation.id'] AS native_session_id, 'OpenAI' AS provider, attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT timestamp AS timestamp_nano, 'claude-code' AS harness, attributes_string['session.id'] AS native_session_id, 'Anthropic' AS provider, attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens, attributes_number['cache_read_tokens'] AS cached_input, attributes_number['output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND 'claude-code' IN $service_name AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request' AND attributes_string['session.id']!='' AND attributes_string['model']!=''\n  UNION ALL\n  SELECT toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano, 'oh-my-pi' AS harness, attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider, attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input, attributes_number['gen_ai.usage.output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat' AND attributes_string['gen_ai.conversation.id']!='' AND attributes_string['gen_ai.request.model']!='' AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\n, greatest(toUInt32(1),toUInt32(($end_timestamp_nano-$start_timestamp_nano)/1000000000/120)) AS bucket_seconds SELECT toStartOfInterval(fromUnixTimestamp64Nano(timestamp_nano),toIntervalSecond(bucket_seconds)) AS timestamp, uniqExact(tuple(harness,native_session_id)) AS `Usage-active sessions` FROM usage_events GROUP BY timestamp ORDER BY timestamp"
           }
         ],
         "id": "46753bca-1bed-419c-b15d-7746aab442bb",
@@ -2540,31 +1477,31 @@
       "stackedBarChart": false,
       "thresholds": [],
       "timePreferance": "GLOBAL_TIME",
-      "title": "Distinct Sessions Over Time",
+      "title": "Usage-Active Sessions Over Time",
       "yAxisUnit": "short"
     },
     {
       "bucketCount": 30,
       "bucketWidth": 0,
       "columnUnits": {
-        "Success": "short",
         "Failure": "short",
-        "Failure rate": "%"
+        "Failure rate": "%",
+        "Success": "short"
       },
       "columnWidths": {
-        "Provider": 120,
+        "Failure": 120,
+        "Failure rate": 130,
         "Harness": 170,
         "Measurement": 200,
-        "Success": 120,
-        "Failure": 120,
-        "Failure rate": 130
+        "Provider": 120,
+        "Success": 120
       },
       "contextLinks": {
         "linksData": []
       },
       "customLegendColors": {},
       "decimalPrecision": 1,
-      "description": "Operational outcomes use each producer’s native boundary. Codex counts API transport attempts; Claude Code counts terminal LLM requests; Oh My Pi counts terminal chat operations. Retries may create multiple Codex attempt outcomes within one logical call. Use each harness as a health trend, not as a cross-harness reliability benchmark.",
+      "description": "Operational outcomes use producer-native boundaries. Codex response attempts are app-server-only when present, attempt-level, and exclude catalog refreshes; Claude Code counts terminal LLM requests; Oh My Pi counts terminal chat operations. Treat each harness as its own health trend.",
       "fillSpans": false,
       "id": "51d681e3-e8c9-48a7-bf91-d7b903299fc1",
       "isLogScale": false,
@@ -2584,7 +1521,7 @@
             "disabled": false,
             "legend": "",
             "name": "A",
-            "query": "WITH native_outcomes AS (\n  SELECT\n    'OpenAI' AS provider,\n    resource.`service.name`::String AS harness,\n    'Codex transport attempt' AS measurement,\n    if(mapContains(attributes_bool,'success'),attributes_bool['success'],NOT (mapContains(attributes_string,'error.message') AND attributes_string['error.message']!='')) AS succeeded\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.api_request'\n  UNION ALL\n  SELECT\n    'Anthropic' AS provider,\n    'claude-code' AS harness,\n    'Claude logical request' AS measurement,\n    NOT (has_error OR status_code_string='Error') AS succeeded\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n    AND 'claude-code' IN $service_name\n    AND serviceName='claude-code'\n    AND name='claude_code.llm_request'\n  UNION ALL\n  SELECT\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider,\n    'oh-my-pi' AS harness,\n    'OMP logical chat' AS measurement,\n    NOT (has_error OR status_code_string='Error') AS succeeded\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n    AND 'oh-my-pi' IN $service_name\n    AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat'\n)\nSELECT\n  provider AS `Provider`,\n  harness AS `Harness`,\n  measurement AS `Measurement`,\n  countIf(succeeded) AS `Success`,\n  countIf(NOT succeeded) AS `Failure`,\n  round(100*countIf(NOT succeeded)/count(),1) AS `Failure rate`\nFROM native_outcomes\nGROUP BY provider,harness,measurement\nORDER BY `Failure rate` DESC,`Failure` DESC,provider,harness"
+            "query": "WITH native_outcomes AS (\n  SELECT 'OpenAI' AS provider, resource.`service.name`::String AS harness, 'Codex response attempt' AS measurement,\n    if(mapContains(attributes_bool,'success'),attributes_bool['success'],NOT (mapContains(attributes_string,'error.message') AND attributes_string['error.message']!='')) AS succeeded\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.api_request' AND attributes_string['endpoint']='/responses' AND attributes_string['conversation.id']!='' AND attributes_string['model']!=''\n  UNION ALL\n  SELECT 'Anthropic','claude-code','Claude logical request',NOT (has_error OR status_code_string='Error') FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'claude-code' IN $service_name AND serviceName='claude-code' AND name='claude_code.llm_request'\n  UNION ALL\n  SELECT multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']),'oh-my-pi','OMP logical chat',NOT (has_error OR status_code_string='Error') FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi' AND attributes_string['gen_ai.operation.name']='chat'\n)\nSELECT provider AS `Provider`, harness AS `Harness`, measurement AS `Measurement`, countIf(succeeded) AS `Success`, countIf(NOT succeeded) AS `Failure`, round(100*countIf(NOT succeeded)/count(),1) AS `Failure rate` FROM native_outcomes GROUP BY provider,harness,measurement ORDER BY `Failure rate` DESC,`Failure` DESC,provider,harness"
           }
         ],
         "id": "4f78b8df-4719-4c95-9157-a262c3dfd27c",
@@ -2668,7 +1605,7 @@
       },
       "customLegendColors": {},
       "decimalPrecision": 0,
-      "description": "Failure counts use each producer’s native outcome boundary. Codex counts failed API transport attempts; Claude Code counts failed terminal LLM requests; Oh My Pi counts failed terminal chat operations. Peaks indicate periods of degraded native-operation health; compare each harness with its own history.",
+      "description": "Failure counts use producer-native outcome boundaries. Codex response attempts exclude catalog refreshes and are attempt-level; Claude Code counts failed terminal LLM requests; Oh My Pi counts failed terminal chat operations. Compare each harness with its own history.",
       "fillSpans": false,
       "id": "aa8f7070-9327-4b85-a746-e3aa2f4d36a5",
       "isLogScale": false,
@@ -2688,7 +1625,7 @@
             "disabled": false,
             "legend": "{{series}}",
             "name": "A",
-            "query": "WITH\n  greatest(toUInt32(1),toUInt32(($end_timestamp_nano-$start_timestamp_nano)/1000000000/120)) AS bucket_seconds,\n  native_outcomes AS (\n    SELECT\n      timestamp AS timestamp_nano,\n      multiIf(resource.`service.name`::String='codex-app-server','Codex App',resource.`service.name`::String='codex_exec','Codex Exec','Codex CLI') AS series,\n      NOT if(mapContains(attributes_bool,'success'),attributes_bool['success'],NOT (mapContains(attributes_string,'error.message') AND attributes_string['error.message']!='')) AS failed\n    FROM signoz_logs.distributed_logs_v2\n    WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n      AND resource.`service.name`::String IN $service_name\n      AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n      AND attributes_string['event.name']='codex.api_request'\n    UNION ALL\n    SELECT\n      toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano,\n      'Claude Code' AS series,\n      has_error OR status_code_string='Error' AS failed\n    FROM signoz_traces.distributed_signoz_index_v3\n    WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n      AND 'claude-code' IN $service_name\n      AND serviceName='claude-code'\n      AND name='claude_code.llm_request'\n    UNION ALL\n    SELECT\n      toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano,\n      'OMP' AS series,\n      has_error OR status_code_string='Error' AS failed\n    FROM signoz_traces.distributed_signoz_index_v3\n    WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n      AND 'oh-my-pi' IN $service_name\n      AND serviceName='oh-my-pi'\n      AND attributes_string['gen_ai.operation.name']='chat'\n  )\nSELECT\n  toStartOfInterval(fromUnixTimestamp64Nano(timestamp_nano),toIntervalSecond(bucket_seconds)) AS timestamp,\n  series,\n  count() AS value\nFROM native_outcomes\nWHERE failed\nGROUP BY timestamp,series\nORDER BY timestamp,series"
+            "query": "WITH greatest(toUInt32(1),toUInt32(($end_timestamp_nano-$start_timestamp_nano)/1000000000/120)) AS bucket_seconds, native_outcomes AS (SELECT timestamp AS timestamp_nano, multiIf(resource.`service.name`::String='codex-app-server','Codex App',resource.`service.name`::String='codex_exec','Codex Exec','Codex CLI') AS series, NOT if(mapContains(attributes_bool,'success'),attributes_bool['success'],NOT (mapContains(attributes_string,'error.message') AND attributes_string['error.message']!='')) AS failed FROM signoz_logs.distributed_logs_v2 WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs') AND attributes_string['event.name']='codex.api_request' AND attributes_string['endpoint']='/responses' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' UNION ALL SELECT toUInt64(toUnixTimestamp64Nano(timestamp)),'Claude Code',has_error OR status_code_string='Error' FROM signoz_traces.distributed_signoz_index_v3 WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'claude-code' IN $service_name AND serviceName='claude-code' AND name='claude_code.llm_request' UNION ALL SELECT toUInt64(toUnixTimestamp64Nano(timestamp)),'OMP',has_error OR status_code_string='Error' FROM signoz_traces.distributed_signoz_index_v3 WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi' AND attributes_string['gen_ai.operation.name']='chat') SELECT toStartOfInterval(fromUnixTimestamp64Nano(timestamp_nano),toIntervalSecond(bucket_seconds)) AS timestamp, series, count() AS value FROM native_outcomes WHERE failed GROUP BY timestamp,series ORDER BY timestamp,series"
           }
         ],
         "id": "6e89cd07-5d88-4d32-a745-cf2f98979a32",
@@ -2871,24 +1808,24 @@
       "bucketCount": 30,
       "bucketWidth": 0,
       "columnUnits": {
-        "Input tokens": "short",
+        "Cache utilization": "%",
         "Cached input": "short",
-        "Output tokens": "short",
         "Completed model calls": "short",
-        "Uncached input": "short",
-        "Cache utilization": "%"
+        "Input tokens": "short",
+        "Output tokens": "short",
+        "Uncached input": "short"
       },
       "columnWidths": {
-        "Session": 230,
-        "Harness": 155,
-        "Provider": 120,
-        "Model": 180,
-        "Input tokens": 145,
+        "Cache utilization": 145,
         "Cached input": 145,
+        "Completed model calls": 145,
+        "Harness": 145,
+        "Input tokens": 145,
+        "Model": 145,
         "Output tokens": 145,
-        "Completed model calls": 165,
-        "Uncached input": 145,
-        "Cache utilization": 145
+        "Provider": 145,
+        "Session": 145,
+        "Uncached input": 145
       },
       "contextLinks": {
         "linksData": []
@@ -2915,7 +1852,7 @@
             "disabled": false,
             "legend": "",
             "name": "A",
-            "query": "WITH usage_events AS (\n  SELECT\n    timestamp AS timestamp_nano,\n    resource.`service.name`::String AS harness,\n    attributes_string['conversation.id'] AS native_session_id,\n    'OpenAI' AS provider,\n    attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event'\n    AND attributes_string['conversation.id']!=''\n    AND attributes_string['model']!=''\n    AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT\n    timestamp AS timestamp_nano,\n    'claude-code' AS harness,\n    attributes_string['session.id'] AS native_session_id,\n    'Anthropic' AS provider,\n    attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens,\n    attributes_number['cache_read_tokens'] AS cached_input,\n    attributes_number['output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND 'claude-code' IN $service_name\n    AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request'\n    AND attributes_string['session.id']!=''\n    AND attributes_string['model']!=''\n  UNION ALL\n  SELECT\n    toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano,\n    'oh-my-pi' AS harness,\n    attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider,\n    attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input,\n    attributes_number['gen_ai.usage.output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n    AND 'oh-my-pi' IN $service_name\n    AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat'\n    AND attributes_string['gen_ai.conversation.id']!=''\n    AND attributes_string['gen_ai.request.model']!=''\n    AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT\n  native_session_id AS `Session`,\n  harness AS `Harness`,\n  provider AS `Provider`,\n  model AS `Model`,\n  sum(input_tokens) AS `Input tokens`,\n  sum(cached_input) AS `Cached input`,\n  sum(output_tokens) AS `Output tokens`,\n  sum(completed_model_calls) AS `Completed model calls`,\n  sum(input_tokens)-sum(cached_input) AS `Uncached input`,\n  round(100*sum(cached_input)/nullIf(sum(input_tokens),0),1) AS `Cache utilization`\nFROM usage_events\nGROUP BY harness,native_session_id,provider,model\nORDER BY `Input tokens` DESC\nLIMIT 5000"
+            "query": "WITH usage_events AS (\n  SELECT timestamp AS timestamp_nano, resource.`service.name`::String AS harness, attributes_string['conversation.id'] AS native_session_id, 'OpenAI' AS provider, attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event' AND attributes_string['conversation.id']!='' AND attributes_string['model']!='' AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT timestamp AS timestamp_nano, 'claude-code' AS harness, attributes_string['session.id'] AS native_session_id, 'Anthropic' AS provider, attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens, attributes_number['cache_read_tokens'] AS cached_input, attributes_number['output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND 'claude-code' IN $service_name AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request' AND attributes_string['session.id']!='' AND attributes_string['model']!=''\n  UNION ALL\n  SELECT toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano, 'oh-my-pi' AS harness, attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider, attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input, attributes_number['gen_ai.usage.output_tokens'] AS output_tokens, toUInt64(1) AS completed_operations\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano) AND 'oh-my-pi' IN $service_name AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat' AND attributes_string['gen_ai.conversation.id']!='' AND attributes_string['gen_ai.request.model']!='' AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT native_session_id AS `Session`, harness AS `Harness`, provider AS `Provider`, model AS `Model`, sum(input_tokens) AS `Input tokens`, sum(cached_input) AS `Cached input`, sum(output_tokens) AS `Output tokens`, sum(completed_operations) AS `Completed model calls`, sum(input_tokens)-sum(cached_input) AS `Uncached input`, round(100*sum(cached_input)/nullIf(sum(input_tokens),0),1) AS `Cache utilization` FROM usage_events GROUP BY harness,native_session_id,provider,model ORDER BY `Input tokens` DESC LIMIT 5000"
           }
         ],
         "id": "23e9bd82-0e09-4376-8f85-c8debfd0b296",
