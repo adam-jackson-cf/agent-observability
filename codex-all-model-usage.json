@@ -1,0 +1,2994 @@
+{
+  "description": "Outcome-first view of model token consumption, input-cache efficiency, conversations, reliability, and operational breakdowns.",
+  "image": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxOCAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0Ljk0OTQgMTMuOTQyQzE2LjIzMTggMTIuNDI1OCAxNy4zMjY4IDkuNzAyMiAxNi4xOTU2IDYuNTc0ODdDMTUuNjQ0MyA1LjA1MjQ1IDE1LjAyMTkgNC4yMDI0OSAxNC4yOTY5IDMuNjYyNTJDMTMuODU1NyAzLjMzMzc5IDEyLjA5MzMgMi41MDYzMyA5Ljc1OTY1IDIuODY3NTZDOC4wNTM0OSAzLjEzMjU1IDUuNzc0ODcgNC4yMDg3NCA0LjI5MzY5IDUuOTU5OUMyLjg1NzUyIDcuNjYxMDYgMS43NDg4MyA5LjAwNDc0IDEuNjk3NTggMTAuMzA5N0MxLjYzMTMzIDExLjk4ODMgMi44OTYyNyAxMy40MzA4IDMuMDUwMDEgMTMuNjY0NUMzLjMyMzc0IDE0LjA3OTUgNS4xOTExNSAxNi40NTE4IDguNjk5NzEgMTYuNTczMUMxMS43OTcgMTYuNjc5MyAxMy44MTQ0IDE1LjI4NDQgMTQuOTQ5NCAxMy45NDJaIiBmaWxsPSIjNDAzRDNFIi8+CjxwYXRoIGQ9Ik00LjU1MzYzIDIuNzM3NDdDMi45Mzc0NiAzLjg5MTE2IDEuMTIxMzEgNi4yNTEwMyAxLjQ0NzU0IDkuNTYwODZDMS42MDYyOCAxMS4xNzIgMi4wMDI1MSAxMi4xNDk1IDIuNTcxMjMgMTIuODUwN0MyLjkxNzQ2IDEzLjI3ODIgNC40MTk4OCAxNC41NDkzIDYuNzczNTEgMTQuNzM2OEM5LjE0NTg4IDE0LjkyNTYgMTAuOTQ5NSAxNC4zOTQ0IDEyLjgzMzIgMTMuMDg0NEMxNi42NjE3IDEwLjQyMDggMTYuMDk4IDYuMzkzNTMgMTUuOTM0MyA1LjkyNDhDMTUuNzcwNSA1LjQ1NjA3IDE0LjU0NDQgMi42OTYyMiAxMS4xNzMzIDEuNzE1MDJDOC4xOTg0NCAwLjg1MDA2OCA1Ljk4MzU1IDEuNzE1MDIgNC41NTM2MyAyLjczNzQ3WiIgZmlsbD0iIzVFNjM2NyIvPgo8cGF0aCBkPSJNNy4zOTM1MyAyLjk2MTA5QzUuNjE3MzcgMi44OTczNCAzLjkxOTk2IDQuMjg4NTIgMy43NTYyMiA2LjAwNTkzQzMuNTkyNDggNy43MjIwOSA0LjY1NDkyIDkuMDI5NTIgNi4zMDk4MyA5LjI5NTc2QzcuOTY0NzUgOS41NjA3NCA5Ljg3ODM5IDguNTU1OCAxMC4yNjM0IDYuNDUwOTFDMTAuNjYwOSA0LjI4MjI3IDkuMDg5NjkgMy4wMjIzNCA3LjM5MzUzIDIuOTYxMDlaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNy45NDIxNyA1LjkwMTE1QzcuOTQyMTcgNS45MDExNSA4LjM2OTY1IDUuODEyNCA4LjQ1NDY1IDUuMTgyNDRDOC41MzgzOSA0LjU2MjQ3IDguMjMwOTEgNC4wMzM3NSA3LjUxMzQ1IDMuODQzNzZDNi43MzM0OSAzLjYzNzUyIDYuMjA0NzcgNC4wNjYyNSA2LjA2NzI3IDQuNTE3NDdDNS44NzYwMyA1LjE0NDk0IDYuMTU4NTIgNS40NDM2NyA2LjE1ODUyIDUuNDQzNjdDNi4xNTg1MiA1LjQ0MzY3IDUuMzkzNTYgNS42Mjc0MSA1LjMzMjMxIDYuNTI5ODdDNS4yNzQ4MSA3LjM4MTA3IDUuODU2MDMgNy44Mzg1NSA2LjQzOTc1IDcuOTc4NTRDNy4xNjA5NiA4LjE1MjI4IDcuOTc4NDIgNy45NTQ3OSA4LjE3ODQxIDcuMDM0ODRDOC4zNDQ2NSA2LjI3NzM4IDcuOTQyMTcgNS45MDExNSA3Ljk0MjE3IDUuOTAxMTVaIiBmaWxsPSIjMzAzMDMwIi8+CjxwYXRoIGQ9Ik02LjczOTgzIDQuNzUzNjJDNi42NzEwOSA1LjAxMjM1IDYuODA4NTggNS4yNjIzNCA3LjA3ODU3IDUuMzMxMDlDNy4zNjk4IDUuNDA0ODMgNy42MzQ3OSA1LjMwODU5IDcuNzA2MDMgNS4wMTExQzcuNzY4NTMgNC43NDczNyA3LjY0MzU0IDQuNTE0ODggNy4zMzYwNSA0LjQzOTg4QzcuMDgzNTcgNC4zNzczOSA2LjgxNDgzIDQuNDcxMTMgNi43Mzk4MyA0Ljc1MzYyWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTYuOTU5NzggNi4wMzk3NEM2LjYzMjMgNS45Mzg0OSA2LjE5OTgyIDYuMDY0NzMgNi4xMzEwNyA2LjUwNDcxQzYuMDYyMzMgNi45NDQ2OSA2LjMyNjA2IDcuMTY5NjggNi42NzEwNCA3LjIzMjE3QzcuMDE2MDMgNy4yOTQ2NyA3LjM0MjI2IDcuMTEzNDMgNy40MDYwMSA2Ljc2MDk1QzcuNDY4NSA2LjQwOTcyIDcuMjg2MDEgNi4xMzk3MyA2Ljk1OTc4IDYuMDM5NzRaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K",
+  "layout": [
+    {
+      "h": 2,
+      "i": "7adbcccf-f1af-468b-a2a6-3f97a83f0c34",
+      "moved": false,
+      "static": false,
+      "w": 2,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "h": 2,
+      "i": "d3ef18e5-db77-493a-a246-cfb1c572fdec",
+      "moved": false,
+      "static": false,
+      "w": 2,
+      "x": 2,
+      "y": 0
+    },
+    {
+      "h": 2,
+      "i": "30270873-2968-415b-881b-58901ac0ac94",
+      "moved": false,
+      "static": false,
+      "w": 2,
+      "x": 4,
+      "y": 0
+    },
+    {
+      "h": 2,
+      "i": "7faf4adf-8f25-419b-a12f-4c5311e1cd7a",
+      "moved": false,
+      "static": false,
+      "w": 2,
+      "x": 6,
+      "y": 0
+    },
+    {
+      "h": 2,
+      "i": "2920f5dd-71e0-4a7f-926b-dacc9d77b5ea",
+      "moved": false,
+      "static": false,
+      "w": 2,
+      "x": 8,
+      "y": 0
+    },
+    {
+      "h": 2,
+      "i": "12cc3a3b-bc19-4f76-8862-a1493c9b0481",
+      "moved": false,
+      "static": false,
+      "w": 2,
+      "x": 10,
+      "y": 0
+    },
+    {
+      "h": 6,
+      "i": "810d0d80-b642-48fb-bd03-a649bc3ad1cb",
+      "moved": false,
+      "static": false,
+      "w": 8,
+      "x": 0,
+      "y": 2
+    },
+    {
+      "h": 6,
+      "i": "e8ac73f8-d0b0-41de-b70b-512af5163281",
+      "moved": false,
+      "static": false,
+      "w": 4,
+      "x": 8,
+      "y": 2
+    },
+    {
+      "h": 6,
+      "i": "7ff2a6e9-79f3-4268-bebb-19c8341b1d5e",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 0,
+      "y": 8
+    },
+    {
+      "h": 6,
+      "i": "c43b6bf1-e10e-4b46-8353-e3118209879d",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 6,
+      "y": 8
+    },
+    {
+      "h": 8,
+      "i": "284adc93-e027-436d-b6f4-eb1f8f7bcb6b",
+      "moved": false,
+      "static": false,
+      "w": 12,
+      "x": 0,
+      "y": 14
+    },
+    {
+      "h": 6,
+      "i": "f16c708c-bd46-4a97-a7b0-505f861a91b6",
+      "moved": false,
+      "static": false,
+      "w": 12,
+      "x": 0,
+      "y": 22
+    },
+    {
+      "h": 8,
+      "i": "289dc171-1e6f-4a2f-b4b2-4e4c9ab0550d",
+      "moved": false,
+      "static": false,
+      "w": 12,
+      "x": 0,
+      "y": 40
+    },
+    {
+      "h": 6,
+      "i": "51d681e3-e8c9-48a7-bf91-d7b903299fc1",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 0,
+      "y": 28
+    },
+    {
+      "h": 6,
+      "i": "6f24cf3c-f107-49b0-9950-a83b3db5e9c6",
+      "moved": false,
+      "static": false,
+      "w": 12,
+      "x": 0,
+      "y": 34
+    },
+    {
+      "h": 6,
+      "i": "aa8f7070-9327-4b85-a746-e3aa2f4d36a5",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 6,
+      "y": 28
+    }
+  ],
+  "panelMap": {},
+  "tags": [
+    "model-usage",
+    "caching"
+  ],
+  "title": "All Model Usage",
+  "uploadedGrafana": false,
+  "uuid": "0d456d88-0da7-479b-ab73-0bd0cd595e32",
+  "variables": {
+    "cc4a7e66-1fad-49e1-920c-c79c8b3cb673": {
+      "allSelected": false,
+      "customValue": "",
+      "defaultValue": "",
+      "description": "Filter model-usage panels by Codex, Claude Code, or Oh My Pi telemetry service.",
+      "dynamicVariablesAttribute": "service.name",
+      "dynamicVariablesSource": "Logs",
+      "haveCustomValuesSelected": false,
+      "id": "cc4a7e66-1fad-49e1-920c-c79c8b3cb673",
+      "modificationUUID": "0791c0bd-0777-4ac7-81c0-87f8ed458375",
+      "multiSelect": true,
+      "name": "service_name",
+      "order": 0,
+      "queryValue": "",
+      "selectedValue": [
+        "codex-app-server",
+        "codex_exec",
+        "codex_cli_rs",
+        "claude-code",
+        "oh-my-pi"
+      ],
+      "showALLOption": true,
+      "sort": "DISABLED",
+      "textboxValue": "",
+      "type": "DYNAMIC"
+    }
+  },
+  "version": "v5",
+  "widgets": [
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 1,
+      "description": "Normalized total model input: Codex input plus Claude Code and Oh My Pi direct, cache-created, and cache-read input.",
+      "fillSpans": false,
+      "id": "7adbcccf-f1af-468b-a2a6-3f97a83f0c34",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(input_token_count)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "A",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "A",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(input_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "B",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "B",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cache_creation_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "C",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "C",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cache_read_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "D",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "D",
+              "source": "",
+              "stepInterval": null
+            }
+          ],
+          "queryFormulas": [
+            {
+              "disabled": false,
+              "expression": "A+B+C+D",
+              "legend": "Input tokens",
+              "queryName": "F1"
+            }
+          ],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "id": "6d3706f4-69d3-4e4f-8037-651f820d22fa",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "builder",
+        "unit": "short"
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Input Tokens",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 1,
+      "description": "Normalized model output tokens across Codex, Claude Code, and Oh My Pi.",
+      "fillSpans": false,
+      "id": "d3ef18e5-db77-493a-a246-cfb1c572fdec",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(output_token_count)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "A",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "A",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(output_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "B",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "B",
+              "source": "",
+              "stepInterval": null
+            }
+          ],
+          "queryFormulas": [
+            {
+              "disabled": false,
+              "expression": "A+B",
+              "legend": "Output tokens",
+              "queryName": "F1"
+            }
+          ],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "id": "82ec53fa-c0be-4cfd-b018-f3c584cab516",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "builder",
+        "unit": "short"
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Output Tokens",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 1,
+      "description": "Input served from cache: Codex cached input plus Claude Code and Oh My Pi cache-read input.",
+      "fillSpans": false,
+      "id": "30270873-2968-415b-881b-58901ac0ac94",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cached_token_count)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "A",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "A",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cache_read_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "B",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "B",
+              "source": "",
+              "stepInterval": null
+            }
+          ],
+          "queryFormulas": [
+            {
+              "disabled": false,
+              "expression": "A+B",
+              "legend": "Cached input",
+              "queryName": "F1"
+            }
+          ],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "id": "a5a7eee4-e9f2-47ca-8f03-6e46530953cc",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "builder",
+        "unit": "short"
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Cached Input",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 1,
+      "description": "Input not served from cache: Codex input minus cached input, plus Claude Code and Oh My Pi direct and cache-created input.",
+      "fillSpans": false,
+      "id": "7faf4adf-8f25-419b-a12f-4c5311e1cd7a",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(input_token_count)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "A",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "A",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cached_token_count)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "B",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "B",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(input_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "C",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "C",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cache_creation_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "D",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "D",
+              "source": "",
+              "stepInterval": null
+            }
+          ],
+          "queryFormulas": [
+            {
+              "disabled": false,
+              "expression": "(A-B)+C+D",
+              "legend": "Uncached input",
+              "queryName": "F1"
+            }
+          ],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "id": "f66b2c68-45d8-45c6-8d07-714b31115ad0",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "builder",
+        "unit": "short"
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Uncached Input",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 1,
+      "description": "Cache-read input divided by normalized total input across Codex, Claude Code, and Oh My Pi.",
+      "fillSpans": false,
+      "id": "2920f5dd-71e0-4a7f-926b-dacc9d77b5ea",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(input_token_count)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "A",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "A",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cached_token_count)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "B",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "B",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(input_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "C",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "C",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cache_creation_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "D",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "D",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cache_read_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "E",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "E",
+              "source": "",
+              "stepInterval": null
+            }
+          ],
+          "queryFormulas": [
+            {
+              "disabled": false,
+              "expression": "((B+E)/(A+C+D+E))*100",
+              "legend": "Cache utilization",
+              "queryName": "F1"
+            }
+          ],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "id": "45636a98-33d7-4dbf-9e62-4628c1c46abb",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "builder",
+        "unit": "%"
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Input Cache Utilization",
+      "yAxisUnit": "%"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 1,
+      "description": "Distinct native sessions across selected harnesses; identity is scoped by harness.",
+      "fillSpans": false,
+      "id": "12cc3a3b-bc19-4f76-8862-a1493c9b0481",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": "WITH usage_events AS (\n  SELECT\n    timestamp AS timestamp_nano,\n    resource.`service.name`::String AS harness,\n    attributes_string['conversation.id'] AS native_session_id,\n    'OpenAI' AS provider,\n    attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event'\n    AND attributes_string['conversation.id']!=''\n    AND attributes_string['model']!=''\n    AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT\n    timestamp AS timestamp_nano,\n    'claude-code' AS harness,\n    attributes_string['session.id'] AS native_session_id,\n    'Anthropic' AS provider,\n    attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens,\n    attributes_number['cache_read_tokens'] AS cached_input,\n    attributes_number['output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND 'claude-code' IN $service_name\n    AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request'\n    AND attributes_string['session.id']!=''\n    AND attributes_string['model']!=''\n  UNION ALL\n  SELECT\n    toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano,\n    'oh-my-pi' AS harness,\n    attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider,\n    attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input,\n    attributes_number['gen_ai.usage.output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n    AND 'oh-my-pi' IN $service_name\n    AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat'\n    AND attributes_string['gen_ai.conversation.id']!=''\n    AND attributes_string['gen_ai.request.model']!=''\n    AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT uniqExact(tuple(harness,native_session_id)) AS `Distinct sessions` FROM usage_events"
+          }
+        ],
+        "id": "1b0e2490-0bd9-4eca-a434-aec1e4bc3735",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql",
+        "unit": "short"
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Distinct Sessions",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 1,
+      "description": "Daily normalized input, cache-read input, and output tokens across Codex, Claude Code, and Oh My Pi. Ranges shorter than one day intentionally remain blank.",
+      "fillSpans": false,
+      "id": "810d0d80-b642-48fb-bd03-a649bc3ad1cb",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "graph",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(input_token_count)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "A",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "A",
+              "source": "",
+              "stepInterval": 86400
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cached_token_count)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "B",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "B",
+              "source": "",
+              "stepInterval": 86400
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(output_token_count)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "C",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "C",
+              "source": "",
+              "stepInterval": 86400
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(input_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "D",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "D",
+              "source": "",
+              "stepInterval": 86400
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cache_creation_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "E",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "E",
+              "source": "",
+              "stepInterval": 86400
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cache_read_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "F",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "F",
+              "source": "",
+              "stepInterval": 86400
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(output_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "G",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "G",
+              "source": "",
+              "stepInterval": 86400
+            }
+          ],
+          "queryFormulas": [
+            {
+              "disabled": false,
+              "expression": "A+D+E+F",
+              "legend": "Input tokens",
+              "queryName": "F1"
+            },
+            {
+              "disabled": false,
+              "expression": "B+F",
+              "legend": "Cached input",
+              "queryName": "F2"
+            },
+            {
+              "disabled": false,
+              "expression": "C+G",
+              "legend": "Output tokens",
+              "queryName": "F3"
+            }
+          ],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "id": "10c74615-91d7-4699-ad58-e7efa0e91a50",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "builder",
+        "unit": "short"
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": true,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Daily Token Consumption",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 1,
+      "description": "Daily cache-read share of normalized input across Codex, Claude Code, and Oh My Pi. Ranges shorter than one day intentionally remain blank.",
+      "fillSpans": false,
+      "id": "e8ac73f8-d0b0-41de-b70b-512af5163281",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "graph",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(input_token_count)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "A",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "A",
+              "source": "",
+              "stepInterval": 86400
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cached_token_count)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "B",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "B",
+              "source": "",
+              "stepInterval": 86400
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(input_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "C",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "C",
+              "source": "",
+              "stepInterval": 86400
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cache_creation_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "D",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "D",
+              "source": "",
+              "stepInterval": 86400
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cache_read_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "E",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "E",
+              "source": "",
+              "stepInterval": 86400
+            }
+          ],
+          "queryFormulas": [
+            {
+              "disabled": false,
+              "expression": "((B+E)/(A+C+D+E))*100",
+              "legend": "Cache utilization",
+              "queryName": "F1"
+            }
+          ],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "id": "067c82ba-30f0-4b7a-aef5-0f684b50cc63",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "builder",
+        "unit": "%"
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Daily Input Cache Utilization",
+      "yAxisUnit": "%"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {
+        "Input tokens": "short",
+        "Cached input": "short",
+        "Model calls": "short",
+        "Uncached input": "short",
+        "Cache utilization": "%"
+      },
+      "columnWidths": {
+        "service": 180,
+        "Input tokens": 145,
+        "Cached input": 145,
+        "Model calls": 145,
+        "Uncached input": 145,
+        "Cache utilization": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 1,
+      "description": "Normalized input-token and cache efficiency totals by harness.",
+      "fillSpans": false,
+      "id": "7ff2a6e9-79f3-4268-bebb-19c8341b1d5e",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "table",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(input_token_count)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "A",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
+              },
+              "functions": [],
+              "groupBy": [
+                {
+                  "dataType": "string",
+                  "id": "service.name--string--resource",
+                  "isColumn": false,
+                  "isJSON": false,
+                  "key": "service.name",
+                  "type": "resource"
+                }
+              ],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": 50,
+              "orderBy": [],
+              "queryName": "A",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cached_token_count)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "B",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
+              },
+              "functions": [],
+              "groupBy": [
+                {
+                  "dataType": "string",
+                  "id": "service.name--string--resource",
+                  "isColumn": false,
+                  "isJSON": false,
+                  "key": "service.name",
+                  "type": "resource"
+                }
+              ],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": 50,
+              "orderBy": [],
+              "queryName": "B",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "count_distinct(call_id)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "C",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('codex-app-server','codex_exec','codex_cli_rs')"
+              },
+              "functions": [],
+              "groupBy": [
+                {
+                  "dataType": "string",
+                  "id": "service.name--string--resource",
+                  "isColumn": false,
+                  "isJSON": false,
+                  "key": "service.name",
+                  "type": "resource"
+                }
+              ],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": 50,
+              "orderBy": [],
+              "queryName": "C",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(input_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "D",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [
+                {
+                  "dataType": "string",
+                  "id": "service.name--string--resource",
+                  "isColumn": false,
+                  "isJSON": false,
+                  "key": "service.name",
+                  "type": "resource"
+                }
+              ],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": 50,
+              "orderBy": [],
+              "queryName": "D",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cache_creation_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "E",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [
+                {
+                  "dataType": "string",
+                  "id": "service.name--string--resource",
+                  "isColumn": false,
+                  "isJSON": false,
+                  "key": "service.name",
+                  "type": "resource"
+                }
+              ],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": 50,
+              "orderBy": [],
+              "queryName": "E",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "sum(cache_read_tokens)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "F",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [
+                {
+                  "dataType": "string",
+                  "id": "service.name--string--resource",
+                  "isColumn": false,
+                  "isJSON": false,
+                  "key": "service.name",
+                  "type": "resource"
+                }
+              ],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": 50,
+              "orderBy": [],
+              "queryName": "F",
+              "source": "",
+              "stepInterval": null
+            },
+            {
+              "aggregations": [
+                {
+                  "expression": "count_distinct(request_id)",
+                  "alias": ""
+                }
+              ],
+              "dataSource": "logs",
+              "disabled": true,
+              "expression": "G",
+              "filter": {
+                "expression": "resource.service.name IN $service_name AND resource.service.name IN ('claude-code','oh-my-pi') AND attribute.event.name = 'api_request'"
+              },
+              "functions": [],
+              "groupBy": [
+                {
+                  "dataType": "string",
+                  "id": "service.name--string--resource",
+                  "isColumn": false,
+                  "isJSON": false,
+                  "key": "service.name",
+                  "type": "resource"
+                }
+              ],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": 50,
+              "orderBy": [],
+              "queryName": "G",
+              "source": "",
+              "stepInterval": null
+            }
+          ],
+          "queryFormulas": [
+            {
+              "disabled": false,
+              "expression": "A+D+E+F",
+              "legend": "Input tokens",
+              "queryName": "F1"
+            },
+            {
+              "disabled": false,
+              "expression": "B+F",
+              "legend": "Cached input",
+              "queryName": "F2"
+            },
+            {
+              "disabled": false,
+              "expression": "C+G",
+              "legend": "Model calls",
+              "queryName": "F3"
+            },
+            {
+              "disabled": false,
+              "expression": "F1-F2",
+              "legend": "Uncached input",
+              "queryName": "F4"
+            },
+            {
+              "disabled": false,
+              "expression": "(F2/F1)*100",
+              "legend": "Cache utilization",
+              "queryName": "F5"
+            }
+          ],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": "WITH usage AS (\n  SELECT resource.`service.name`::String AS service,\n    if(service IN ('codex-app-server','codex_exec','codex_cli_rs'), if(mapContains(attributes_number,'input_token_count'), attributes_number['input_token_count'], toFloat64OrZero(attributes_string['input_token_count'])), attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens']) AS total_input,\n    if(service IN ('codex-app-server','codex_exec','codex_cli_rs'), if(mapContains(attributes_number,'cached_token_count'), attributes_number['cached_token_count'], toFloat64OrZero(attributes_string['cached_token_count'])), attributes_number['cache_read_tokens']) AS cached_input\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name\n    AND ((resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs') AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count')))\n      OR (resource.`service.name`::String IN ('claude-code','oh-my-pi') AND attributes_string['event.name']='api_request'))\n), calls AS (\n  SELECT resource.`service.name`::String AS service, attributes_string['call_id'] AS request_id FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs') AND attributes_string['call_id']!=''\n  UNION ALL\n  SELECT resource.`service.name`::String AS service, attributes_string['request_id'] AS request_id FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano AND resource.`service.name`::String IN $service_name AND resource.`service.name`::String IN ('claude-code','oh-my-pi') AND attributes_string['event.name']='api_request' AND attributes_string['request_id']!=''\n), usage_agg AS (\n  SELECT service,sum(total_input) total_input,sum(cached_input) cached_input FROM usage GROUP BY service\n), call_agg AS (\n  SELECT service,uniqExact(request_id) model_calls FROM calls GROUP BY service\n)\nSELECT u.service,u.total_input AS `Input tokens`,u.cached_input AS `Cached input`,coalesce(c.model_calls,0) AS `Model calls`,u.total_input-u.cached_input AS `Uncached input`,round(100*u.cached_input/nullIf(u.total_input,0),1) AS `Cache utilization`\nFROM usage_agg u LEFT JOIN call_agg c USING service\nORDER BY u.total_input DESC"
+          }
+        ],
+        "id": "ceed6970-4526-4807-a9c6-097b05fa8452",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql",
+        "unit": ""
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Cache Efficiency by Harness",
+      "yAxisUnit": ""
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {
+        "Input tokens": "short",
+        "Cached input": "short",
+        "Model calls": "short",
+        "Uncached input": "short",
+        "Cache utilization": "%"
+      },
+      "columnWidths": {
+        "model": 180,
+        "Input tokens": 145,
+        "Cached input": 145,
+        "Model calls": 145,
+        "Uncached input": 145,
+        "Cache utilization": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 1,
+      "description": "Normalized input-token and cache efficiency totals by model.",
+      "fillSpans": false,
+      "id": "c43b6bf1-e10e-4b46-8353-e3118209879d",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "table",
+      "query": {
+        "builder": {
+          "queryData": [],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": "WITH usage AS (\n  SELECT attributes_string['model'] AS model,\n    if(resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs'),if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])),attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens']) AS total_input,\n    if(resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs'),if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])),attributes_number['cache_read_tokens']) AS cached_input\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND attributes_string['model']!=''\n    AND ((resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs') AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count')))\n      OR (resource.`service.name`::String IN ('claude-code','oh-my-pi') AND attributes_string['event.name']='api_request'))\n), calls AS (\n  SELECT attributes_string['model'] AS model,attributes_string['call_id'] AS request_id\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['model']!='' AND attributes_string['call_id']!=''\n  UNION ALL\n  SELECT attributes_string['model'] AS model,attributes_string['request_id'] AS request_id\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND resource.`service.name`::String IN ('claude-code','oh-my-pi')\n    AND attributes_string['event.name']='api_request'\n    AND attributes_string['model']!='' AND attributes_string['request_id']!=''\n), usage_agg AS (\n  SELECT model,sum(total_input) total_input,sum(cached_input) cached_input FROM usage GROUP BY model\n), call_agg AS (\n  SELECT model,uniqExact(request_id) model_calls FROM calls GROUP BY model\n)\nSELECT u.model,u.total_input AS `Input tokens`,u.cached_input AS `Cached input`,coalesce(c.model_calls,0) AS `Model calls`,u.total_input-u.cached_input AS `Uncached input`,round(100*u.cached_input/nullIf(u.total_input,0),1) AS `Cache utilization`\nFROM usage_agg u LEFT JOIN call_agg c USING model\nORDER BY u.total_input DESC"
+          }
+        ],
+        "id": "e5ec5e76-f289-460d-98f2-aa8758d43c8e",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql",
+        "unit": ""
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Cache Efficiency by Model",
+      "yAxisUnit": ""
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {
+        "Input tokens": "short",
+        "Cached input": "short",
+        "Output tokens": "short",
+        "Completed model calls": "short",
+        "Uncached input": "short",
+        "Cache utilization": "%"
+      },
+      "columnWidths": {
+        "Session": 230,
+        "Harness": 155,
+        "Provider": 120,
+        "Model": 180,
+        "Input tokens": 145,
+        "Cached input": 145,
+        "Output tokens": 145,
+        "Completed model calls": 165,
+        "Uncached input": 145,
+        "Cache utilization": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 1,
+      "description": "Highest-input sessions with normalized cache efficiency across selected harnesses.",
+      "fillSpans": false,
+      "id": "284adc93-e027-436d-b6f4-eb1f8f7bcb6b",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "table",
+      "query": {
+        "builder": {
+          "queryData": [],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": "WITH usage_events AS (\n  SELECT\n    timestamp AS timestamp_nano,\n    resource.`service.name`::String AS harness,\n    attributes_string['conversation.id'] AS native_session_id,\n    'OpenAI' AS provider,\n    attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event'\n    AND attributes_string['conversation.id']!=''\n    AND attributes_string['model']!=''\n    AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT\n    timestamp AS timestamp_nano,\n    'claude-code' AS harness,\n    attributes_string['session.id'] AS native_session_id,\n    'Anthropic' AS provider,\n    attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens,\n    attributes_number['cache_read_tokens'] AS cached_input,\n    attributes_number['output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND 'claude-code' IN $service_name\n    AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request'\n    AND attributes_string['session.id']!=''\n    AND attributes_string['model']!=''\n  UNION ALL\n  SELECT\n    toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano,\n    'oh-my-pi' AS harness,\n    attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider,\n    attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input,\n    attributes_number['gen_ai.usage.output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n    AND 'oh-my-pi' IN $service_name\n    AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat'\n    AND attributes_string['gen_ai.conversation.id']!=''\n    AND attributes_string['gen_ai.request.model']!=''\n    AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT\n  native_session_id AS `Session`,\n  harness AS `Harness`,\n  provider AS `Provider`,\n  model AS `Model`,\n  sum(input_tokens) AS `Input tokens`,\n  sum(cached_input) AS `Cached input`,\n  sum(output_tokens) AS `Output tokens`,\n  sum(completed_model_calls) AS `Completed model calls`,\n  sum(input_tokens)-sum(cached_input) AS `Uncached input`,\n  round(100*sum(cached_input)/nullIf(sum(input_tokens),0),1) AS `Cache utilization`\nFROM usage_events\nGROUP BY harness,native_session_id,provider,model\nORDER BY `Input tokens` DESC\nLIMIT 20"
+          }
+        ],
+        "id": "33473f14-e03b-4aa2-84b3-b74315bba654",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql",
+        "unit": ""
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "High-Volume Session Cache Analysis",
+      "yAxisUnit": ""
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 1,
+      "description": "Active distinct native sessions per time bucket across selected harnesses.",
+      "fillSpans": false,
+      "id": "f16c708c-bd46-4a97-a7b0-505f861a91b6",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "graph",
+      "query": {
+        "builder": {
+          "queryData": [],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "Distinct sessions",
+            "name": "A",
+            "query": "WITH\n  greatest(toUInt32(1),toUInt32(($end_timestamp_nano-$start_timestamp_nano)/1000000000/120)) AS bucket_seconds,\n  usage_events AS (\n  SELECT\n    timestamp AS timestamp_nano,\n    resource.`service.name`::String AS harness,\n    attributes_string['conversation.id'] AS native_session_id,\n    'OpenAI' AS provider,\n    attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event'\n    AND attributes_string['conversation.id']!=''\n    AND attributes_string['model']!=''\n    AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT\n    timestamp AS timestamp_nano,\n    'claude-code' AS harness,\n    attributes_string['session.id'] AS native_session_id,\n    'Anthropic' AS provider,\n    attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens,\n    attributes_number['cache_read_tokens'] AS cached_input,\n    attributes_number['output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND 'claude-code' IN $service_name\n    AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request'\n    AND attributes_string['session.id']!=''\n    AND attributes_string['model']!=''\n  UNION ALL\n  SELECT\n    toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano,\n    'oh-my-pi' AS harness,\n    attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider,\n    attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input,\n    attributes_number['gen_ai.usage.output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n    AND 'oh-my-pi' IN $service_name\n    AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat'\n    AND attributes_string['gen_ai.conversation.id']!=''\n    AND attributes_string['gen_ai.request.model']!=''\n    AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT toStartOfInterval(fromUnixTimestamp64Nano(timestamp_nano),toIntervalSecond(bucket_seconds)) AS timestamp,\n  uniqExact(tuple(harness,native_session_id)) AS `Distinct sessions`\nFROM usage_events\nGROUP BY timestamp\nORDER BY timestamp"
+          }
+        ],
+        "id": "46753bca-1bed-419c-b15d-7746aab442bb",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql",
+        "unit": "short"
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Distinct Sessions Over Time",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {
+        "Success": "short",
+        "Failure": "short",
+        "Failure rate": "%"
+      },
+      "columnWidths": {
+        "Provider": 120,
+        "Harness": 170,
+        "Measurement": 200,
+        "Success": 120,
+        "Failure": 120,
+        "Failure rate": 130
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 1,
+      "description": "Operational outcomes use each producer’s native boundary. Codex counts API transport attempts; Claude Code counts terminal LLM requests; Oh My Pi counts terminal chat operations. Retries may create multiple Codex attempt outcomes within one logical call. Use each harness as a health trend, not as a cross-harness reliability benchmark.",
+      "fillSpans": false,
+      "id": "51d681e3-e8c9-48a7-bf91-d7b903299fc1",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "table",
+      "query": {
+        "builder": {
+          "queryData": [],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": "WITH native_outcomes AS (\n  SELECT\n    'OpenAI' AS provider,\n    resource.`service.name`::String AS harness,\n    'Codex transport attempt' AS measurement,\n    if(mapContains(attributes_bool,'success'),attributes_bool['success'],NOT (mapContains(attributes_string,'error.message') AND attributes_string['error.message']!='')) AS succeeded\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.api_request'\n  UNION ALL\n  SELECT\n    'Anthropic' AS provider,\n    'claude-code' AS harness,\n    'Claude logical request' AS measurement,\n    NOT (has_error OR status_code_string='Error') AS succeeded\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n    AND 'claude-code' IN $service_name\n    AND serviceName='claude-code'\n    AND name='claude_code.llm_request'\n  UNION ALL\n  SELECT\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider,\n    'oh-my-pi' AS harness,\n    'OMP logical chat' AS measurement,\n    NOT (has_error OR status_code_string='Error') AS succeeded\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n    AND 'oh-my-pi' IN $service_name\n    AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat'\n)\nSELECT\n  provider AS `Provider`,\n  harness AS `Harness`,\n  measurement AS `Measurement`,\n  countIf(succeeded) AS `Success`,\n  countIf(NOT succeeded) AS `Failure`,\n  round(100*countIf(NOT succeeded)/count(),1) AS `Failure rate`\nFROM native_outcomes\nGROUP BY provider,harness,measurement\nORDER BY `Failure rate` DESC,`Failure` DESC,provider,harness"
+          }
+        ],
+        "id": "4f78b8df-4719-4c95-9157-a262c3dfd27c",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql",
+        "unit": ""
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Native Operation Success / Failure",
+      "yAxisUnit": ""
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 0,
+      "description": "Failure counts use each producer’s native outcome boundary. Codex counts failed API transport attempts; Claude Code counts failed terminal LLM requests; Oh My Pi counts failed terminal chat operations. Peaks indicate periods of degraded native-operation health; compare each harness with its own history.",
+      "fillSpans": false,
+      "id": "aa8f7070-9327-4b85-a746-e3aa2f4d36a5",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "graph",
+      "query": {
+        "builder": {
+          "queryData": [],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "{{series}}",
+            "name": "A",
+            "query": "WITH\n  greatest(toUInt32(1),toUInt32(($end_timestamp_nano-$start_timestamp_nano)/1000000000/120)) AS bucket_seconds,\n  native_outcomes AS (\n    SELECT\n      timestamp AS timestamp_nano,\n      multiIf(resource.`service.name`::String='codex-app-server','Codex App',resource.`service.name`::String='codex_exec','Codex Exec','Codex CLI') AS series,\n      NOT if(mapContains(attributes_bool,'success'),attributes_bool['success'],NOT (mapContains(attributes_string,'error.message') AND attributes_string['error.message']!='')) AS failed\n    FROM signoz_logs.distributed_logs_v2\n    WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n      AND resource.`service.name`::String IN $service_name\n      AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n      AND attributes_string['event.name']='codex.api_request'\n    UNION ALL\n    SELECT\n      toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano,\n      'Claude Code' AS series,\n      has_error OR status_code_string='Error' AS failed\n    FROM signoz_traces.distributed_signoz_index_v3\n    WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n      AND 'claude-code' IN $service_name\n      AND serviceName='claude-code'\n      AND name='claude_code.llm_request'\n    UNION ALL\n    SELECT\n      toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano,\n      'OMP' AS series,\n      has_error OR status_code_string='Error' AS failed\n    FROM signoz_traces.distributed_signoz_index_v3\n    WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n      AND 'oh-my-pi' IN $service_name\n      AND serviceName='oh-my-pi'\n      AND attributes_string['gen_ai.operation.name']='chat'\n  )\nSELECT\n  toStartOfInterval(fromUnixTimestamp64Nano(timestamp_nano),toIntervalSecond(bucket_seconds)) AS timestamp,\n  series,\n  count() AS value\nFROM native_outcomes\nWHERE failed\nGROUP BY timestamp,series\nORDER BY timestamp,series"
+          }
+        ],
+        "id": "6e89cd07-5d88-4d32-a745-cf2f98979a32",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql",
+        "unit": "short"
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": true,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Native Operation Failures Over Time",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "P95 uses each producer’s native operation duration. Codex sampling turns include retry handling, response processing, and in-flight tool draining; Claude Code LLM requests and Oh My Pi chat spans cover terminal logical provider calls. Compare each series with its own history; absolute values are not cross-harness performance benchmarks.",
+      "fillSpans": false,
+      "id": "6f24cf3c-f107-49b0-9950-a83b3db5e9c6",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "graph",
+      "query": {
+        "builder": {
+          "queryData": [],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "{{series}}",
+            "name": "A",
+            "query": "WITH\n  greatest(toUInt32(1),toUInt32(($end_timestamp_nano-$start_timestamp_nano)/1000000000/120)) AS bucket_seconds,\n  native_durations AS (\n    SELECT\n      toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano,\n      'OpenAI' AS provider,\n      serviceName AS harness,\n      'Codex sampling turn' AS measurement,\n      duration_nano/1000000000 AS duration_seconds\n    FROM signoz_traces.distributed_signoz_index_v3\n    WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n      AND serviceName IN $service_name\n      AND serviceName IN ('codex-app-server','codex_exec','codex_cli_rs')\n      AND name='run_sampling_request'\n      AND attributes_string['model']!=''\n    UNION ALL\n    SELECT\n      toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano,\n      'Anthropic' AS provider,\n      'claude-code' AS harness,\n      'Claude logical request' AS measurement,\n      duration_nano/1000000000 AS duration_seconds\n    FROM signoz_traces.distributed_signoz_index_v3\n    WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n      AND 'claude-code' IN $service_name\n      AND serviceName='claude-code'\n      AND name='claude_code.llm_request'\n    UNION ALL\n    SELECT\n      toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano,\n      multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider,\n      'oh-my-pi' AS harness,\n      'OMP logical chat' AS measurement,\n      duration_nano/1000000000 AS duration_seconds\n    FROM signoz_traces.distributed_signoz_index_v3\n    WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n      AND 'oh-my-pi' IN $service_name\n      AND serviceName='oh-my-pi'\n      AND attributes_string['gen_ai.operation.name']='chat'\n      AND attributes_string['gen_ai.request.model']!=''\n  )\nSELECT\n  toStartOfInterval(fromUnixTimestamp64Nano(timestamp_nano),toIntervalSecond(bucket_seconds)) AS timestamp,\n  multiIf(harness='codex-app-server','Codex App',harness='codex_exec','Codex Exec',harness='codex_cli_rs','Codex CLI',harness='claude-code','Claude Code',harness='oh-my-pi','OMP',harness) AS series,\n  quantileExact(0.95)(duration_seconds) AS value\nFROM native_durations\nGROUP BY timestamp,series\nORDER BY timestamp,series"
+          }
+        ],
+        "id": "7a3540a0-1f84-4310-ba98-c167c1bbd260",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql",
+        "unit": "s"
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "P95 Native Operation Duration",
+      "yAxisUnit": "s"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {
+        "Input tokens": "short",
+        "Cached input": "short",
+        "Output tokens": "short",
+        "Completed model calls": "short",
+        "Uncached input": "short",
+        "Cache utilization": "%"
+      },
+      "columnWidths": {
+        "Session": 230,
+        "Harness": 155,
+        "Provider": 120,
+        "Model": 180,
+        "Input tokens": 145,
+        "Cached input": 145,
+        "Output tokens": 145,
+        "Completed model calls": 165,
+        "Uncached input": 145,
+        "Cache utilization": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 1,
+      "description": "Per-session model usage and cache efficiency across selected harnesses.",
+      "fillSpans": false,
+      "id": "289dc171-1e6f-4a2f-b4b2-4e4c9ab0550d",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "table",
+      "query": {
+        "builder": {
+          "queryData": [],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": "WITH usage_events AS (\n  SELECT\n    timestamp AS timestamp_nano,\n    resource.`service.name`::String AS harness,\n    attributes_string['conversation.id'] AS native_session_id,\n    'OpenAI' AS provider,\n    attributes_string['model'] AS model,\n    if(mapContains(attributes_number,'input_token_count'),attributes_number['input_token_count'],toFloat64OrZero(attributes_string['input_token_count'])) AS input_tokens,\n    if(mapContains(attributes_number,'cached_token_count'),attributes_number['cached_token_count'],toFloat64OrZero(attributes_string['cached_token_count'])) AS cached_input,\n    if(mapContains(attributes_number,'output_token_count'),attributes_number['output_token_count'],toFloat64OrZero(attributes_string['output_token_count'])) AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND resource.`service.name`::String IN $service_name\n    AND resource.`service.name`::String IN ('codex-app-server','codex_exec','codex_cli_rs')\n    AND attributes_string['event.name']='codex.sse_event'\n    AND attributes_string['conversation.id']!=''\n    AND attributes_string['model']!=''\n    AND (mapContains(attributes_number,'input_token_count') OR mapContains(attributes_string,'input_token_count'))\n  UNION ALL\n  SELECT\n    timestamp AS timestamp_nano,\n    'claude-code' AS harness,\n    attributes_string['session.id'] AS native_session_id,\n    'Anthropic' AS provider,\n    attributes_string['model'] AS model,\n    attributes_number['input_tokens']+attributes_number['cache_creation_tokens']+attributes_number['cache_read_tokens'] AS input_tokens,\n    attributes_number['cache_read_tokens'] AS cached_input,\n    attributes_number['output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_logs.distributed_logs_v2\n  WHERE timestamp BETWEEN $start_timestamp_nano AND $end_timestamp_nano\n    AND 'claude-code' IN $service_name\n    AND resource.`service.name`::String='claude-code'\n    AND attributes_string['event.name']='api_request'\n    AND attributes_string['session.id']!=''\n    AND attributes_string['model']!=''\n  UNION ALL\n  SELECT\n    toUInt64(toUnixTimestamp64Nano(timestamp)) AS timestamp_nano,\n    'oh-my-pi' AS harness,\n    attributes_string['gen_ai.conversation.id'] AS native_session_id,\n    multiIf(lower(attributes_string['gen_ai.provider.name']) LIKE '%anthropic%','Anthropic',lower(attributes_string['gen_ai.provider.name']) LIKE '%openai%','OpenAI',attributes_string['gen_ai.provider.name']) AS provider,\n    attributes_string['gen_ai.request.model'] AS model,\n    attributes_number['gen_ai.usage.input_tokens']+if(mapContains(attributes_number,'gen_ai.usage.cache_creation.input_tokens'),attributes_number['gen_ai.usage.cache_creation.input_tokens'],0)+if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS input_tokens,\n    if(mapContains(attributes_number,'gen_ai.usage.cache_read.input_tokens'),attributes_number['gen_ai.usage.cache_read.input_tokens'],0) AS cached_input,\n    attributes_number['gen_ai.usage.output_tokens'] AS output_tokens,\n    toUInt64(1) AS completed_model_calls\n  FROM signoz_traces.distributed_signoz_index_v3\n  WHERE timestamp BETWEEN fromUnixTimestamp64Nano($start_timestamp_nano) AND fromUnixTimestamp64Nano($end_timestamp_nano)\n    AND 'oh-my-pi' IN $service_name\n    AND serviceName='oh-my-pi'\n    AND attributes_string['gen_ai.operation.name']='chat'\n    AND attributes_string['gen_ai.conversation.id']!=''\n    AND attributes_string['gen_ai.request.model']!=''\n    AND mapContains(attributes_number,'gen_ai.usage.input_tokens')\n    AND (attributes_number['gen_ai.usage.input_tokens']>0 OR attributes_number['gen_ai.usage.output_tokens']>0)\n)\nSELECT\n  native_session_id AS `Session`,\n  harness AS `Harness`,\n  provider AS `Provider`,\n  model AS `Model`,\n  sum(input_tokens) AS `Input tokens`,\n  sum(cached_input) AS `Cached input`,\n  sum(output_tokens) AS `Output tokens`,\n  sum(completed_model_calls) AS `Completed model calls`,\n  sum(input_tokens)-sum(cached_input) AS `Uncached input`,\n  round(100*sum(cached_input)/nullIf(sum(input_tokens),0),1) AS `Cache utilization`\nFROM usage_events\nGROUP BY harness,native_session_id,provider,model\nORDER BY `Input tokens` DESC\nLIMIT 5000"
+          }
+        ],
+        "id": "23e9bd82-0e09-4376-8f85-c8debfd0b296",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "A",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql",
+        "unit": ""
+      },
+      "selectedLogFields": [
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "timestamp",
+          "signal": "logs",
+          "type": "log"
+        },
+        {
+          "dataType": "",
+          "fieldContext": "log",
+          "fieldDataType": "",
+          "isIndexed": false,
+          "name": "body",
+          "signal": "logs",
+          "type": "log"
+        }
+      ],
+      "selectedTracesFields": [
+        {
+          "fieldContext": "resource",
+          "fieldDataType": "string",
+          "name": "service.name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "string",
+          "name": "name",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "duration_nano",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "http_method",
+          "signal": "traces"
+        },
+        {
+          "fieldContext": "span",
+          "fieldDataType": "",
+          "name": "response_status_code",
+          "signal": "traces"
+        }
+      ],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Session Details",
+      "yAxisUnit": ""
+    }
+  ]
+}
