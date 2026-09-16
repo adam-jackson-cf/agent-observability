@@ -4,7 +4,7 @@
 
 ## Codex model-catalog requests misclassified as model-operation health
 
-**Status:** Investigating
+**Status:** Fixed
 
 **Preservation scope:** Keep both panel IDs, titles, layouts, chart/table types, units, short legends, and native-health framing. Change only the Codex population filter, measurement label, and explanatory hint required to make that framing truthful.
 
@@ -42,7 +42,7 @@
 
 ## Oh My Pi usage sources disagree across panels
 
-**Status:** Investigating
+**Status:** Fixed
 
 **Preservation scope:** Keep every affected panel, layout, chart type, unit, and established token/cache arithmetic. Replace only the legacy Oh My Pi source branch and the minimum query structure needed to union logs and spans consistently.
 
@@ -92,7 +92,7 @@
 
 ## Cache tables count tool results as Codex model calls
 
-**Status:** Investigating
+**Status:** Fixed
 
 **Preservation scope:** Keep both cache tables and every existing usage/cache column. Change only the invalid operation-count source, its column label, and the producer-boundary hint.
 
@@ -125,7 +125,7 @@
 
 ## Daily Token Consumption stacks overlapping quantities
 
-**Status:** Investigating
+**Status:** Fixed
 
 **Preservation scope:** Keep the panel ID, title, stacked chart, layout, units, daily bucketing, and blank-under-one-day behavior. Change only the overlapping series definitions and the hint that explains stack height.
 
@@ -149,7 +149,7 @@
 
 ## Daily cache utilization suppresses valid Codex days
 
-**Status:** Investigating
+**Status:** Fixed
 
 **Preservation scope:** Keep the panel ID, title, percentage line, layout, units, 0–100 interpretation, and blank-under-one-day behavior. Change only the query composition needed to retain every valid usage-bearing day.
 
@@ -180,7 +180,7 @@
 
 ## Distinct Sessions descriptions omit usage qualification
 
-**Status:** Investigating
+**Status:** Fixed
 
 **Preservation scope:** Keep both panel IDs, layouts, visual types, adaptive bucketing, and usage-qualified query population. Change only the titles and hints needed to state what the existing calculation actually measures.
 
@@ -212,7 +212,7 @@
 
 ## Cross-cutting implementation contract
 
-**Status:** Investigating
+**Status:** Fixed
 
 - Use one reviewed canonical `usage_events` SQL fragment as the implementation source for every affected direct-SQL widget in `codex-all-model-usage.json`.
 - Remove mixed builder-formula and hand-divergent SQL paths for the affected usage panels.
@@ -222,7 +222,7 @@
 
 ## Recommended implementation sequence
 
-**Status:** Investigating
+**Status:** Fixed
 
 1. Prepare and validate the canonical `usage_events` SQL fragment and each direct-widget query in a temporary implementation harness; keep `codex-all-model-usage.json` as the sole maintained artifact.
 2. Migrate all token, cache, daily, cache-table, and session queries in one atomic cutover so no panel remains on the legacy Oh My Pi source.
