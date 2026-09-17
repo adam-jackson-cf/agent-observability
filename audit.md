@@ -214,7 +214,7 @@
 
 **Status:** Fixed
 
-- Use one reviewed canonical `usage_events` SQL fragment as the implementation source for every affected direct-SQL widget in `codex-all-model-usage.json`.
+- Use one reviewed canonical `usage_events` SQL fragment as the implementation source for every affected direct-SQL widget in `caching-all-model-usage.json`.
 - Remove mixed builder-formula and hand-divergent SQL paths for the affected usage panels.
 - Validate exact query results through SigNoz and enforce cross-panel parity for totals, completed operations, daily coverage, and session populations.
 - Keep producer-boundary differences in information hints while ensuring each visual combines only quantities that are mathematically and semantically compatible.
@@ -224,7 +224,7 @@
 
 **Status:** Fixed
 
-1. Prepare and validate the canonical `usage_events` SQL fragment and each direct-widget query in a temporary implementation harness; keep `codex-all-model-usage.json` as the sole maintained artifact.
+1. Prepare and validate the canonical `usage_events` SQL fragment and each direct-widget query in a temporary implementation harness; keep `caching-all-model-usage.json` as the sole maintained artifact.
 2. Migrate all token, cache, daily, cache-table, and session queries in one atomic cutover so no panel remains on the legacy Oh My Pi source.
 3. In that cutover, replace `Model calls` with `Completed operations`, use mutually exclusive daily token series, calculate daily cache utilization in direct SQL, and rename the two session-count panels.
 4. Independently constrain the two native-outcome panels to identified Codex `/responses` attempts and update their measurement labels and information hints.

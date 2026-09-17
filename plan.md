@@ -6,7 +6,7 @@ Correct the six confirmed data-selection and semantic anomalies without redesign
 
 ## Source of truth
 
-- Canonical dashboard: `codex-all-model-usage.json`
+- Canonical dashboard: `caching-all-model-usage.json`
 - Evidence and issue status: `audit.md`
 - Target dashboard: `01a0a00b-9c1d-7d86-89c2-d7ee7bc0c150`
 - Separate Codex dashboard `01a09fae-7dda-794d-bbdb-35d73d72d624` must remain unchanged.
@@ -31,7 +31,7 @@ Correct the six confirmed data-selection and semantic anomalies without redesign
 
 ## Mandatory KISS review gate
 
-Before modifying `codex-all-model-usage.json`:
+Before modifying `caching-all-model-usage.json`:
 
 1. Prepare a widget-ID keyed allowlist mapping every anomaly to the exact query, label, and hint fields that may change; all other fields are immutable.
 2. Prepare the concrete query and copy changes for those allowed fields.
@@ -54,7 +54,7 @@ Before modifying `codex-all-model-usage.json`:
 - Preserve all affected visuals, units, layouts, and token/cache arithmetic.
 - Replace legacy Oh My Pi `api_request` rows with authoritative nonzero native chat spans.
 - Apply one reviewed normalized `usage_events` SQL shape directly to every affected widget in the same cutover.
-- Keep `codex-all-model-usage.json` as the only maintained artifact.
+- Keep `caching-all-model-usage.json` as the only maintained artifact.
 
 ### Invalid model-operation count
 
