@@ -8,7 +8,7 @@ Resolve portable deployment inputs and requested producer scope before changing 
 
 1. Identify the container runtime, its version, the host architecture, and where the runtime stores data. Note whether that storage is removable or external.
 2. Resolve each input from the user, the environment, or the running instance:
-   - SigNoz release version and deployment directory
+   - deployment directory; the release and image tags come from `ops/signoz/versions.env`
    - UI URL
    - OTLP gRPC and HTTP endpoints
    - backend database location

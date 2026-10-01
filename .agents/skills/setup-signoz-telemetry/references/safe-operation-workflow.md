@@ -13,7 +13,7 @@ Stop, restart, or relocate the stack without losing recently written telemetry.
    - Sync filesystem writes.
    An abrupt stop can lose the newest data parts and leave the database expecting parts that no longer exist.
 2. Keep the host awake during long ingestion, recovery, or maintenance work. Sleep can suspend the runtime mid-write, especially when its data sits on external storage.
-3. When reliability matters more than write speed, consider the database's durability settings, such as syncing parts to disk after inserts and merges. Apply them through the deployment's configuration and verify them after a restart.
+3. Sync merged parts to disk (see `ops/signoz/README.md`) so stops cannot lose them, and verify the setting after a restart. Do not enable insert-path sync on slow or external storage: it can push inserts past the collector's timeout, and the collector's retries then duplicate telemetry.
 4. Confirm merges resume after restart, and that no replication entries are stuck waiting for missing parts.
 5. Never delete telemetry volumes, data directories, or set-aside parts without explicit approval.
 

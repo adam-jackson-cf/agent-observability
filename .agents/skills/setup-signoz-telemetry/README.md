@@ -22,10 +22,10 @@ Set up and operate a vanilla, version-pinned local SigNoz instance, and connect 
 
 ## Inputs
 
-- SigNoz release version, and the deployment directory holding the official deployment files.
+- The deployment directory holding the official SigNoz deployment files. The release, image tags, and validated local adjustments are pinned in `ops/signoz/` (see `ops/signoz/README.md`).
 - Container runtime and its data location.
 - UI URL, OTLP gRPC and HTTP endpoints, and the backend database container or host.
 - The authentication method for the SigNoz API.
 - The requested producers and signals.
 
-Supply these when the skill runs. None are stored in the repository. Producer signal semantics live in the dashboards' `*-signal-reference.md` files.
+Supply these when the skill runs. Only the version pin and the portable deployment adjustments are stored in the repository. Producer signal semantics live in the dashboards' `*-signal-reference.md` files.
