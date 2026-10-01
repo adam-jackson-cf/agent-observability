@@ -229,3 +229,40 @@
 3. In that cutover, replace `Model calls` with `Completed operations`, use mutually exclusive daily token series, calculate daily cache utilization in direct SQL, and rename the two session-count panels.
 4. Independently constrain the two native-outcome panels to identified Codex `/responses` attempts and update their measurement labels and information hints.
 5. Validate direct ClickHouse results, every SigNoz query response, cross-panel parity, 30-day rendering, six-hour blank daily charts, information hints, and exact deployed/local equality before marking any anomaly `Fixed`.
+
+## Retried trace and metric inserts duplicated rows from 2026-09-28 16:00 UTC
+
+**Status:** Fixed
+
+**Preservation scope:** Keep every dashboard query unchanged. Remove the cause and the duplicated rows; do not add per-panel deduplication that would hide a recurrence.
+
+**Affected panels:**
+
+- All Model Usage: every Oh My Pi usage, token, cache, and session panel (Oh My Pi usage comes from spans), and the native outcome and duration panels for Claude Code and Oh My Pi.
+- Reasoning Effort Effectiveness: every task, duration, step, and reasoning panel that reads spans; Oh My Pi reasoning spend.
+- Codex and Claude Code usage panels are unaffected: their usage events come from logs, which have no duplicates.
+
+**Finding:** ClickHouse ran with `fsync_after_insert` and `fsync_part_directory` from 2026-09-28 21:50 UTC. On the UGreen USB-backed OrbStack VM this pushed trace inserts to a p95 of about 8.6 s, against the collector's 9 s timeout. Timed-out batches that had already landed were retried and written again. A smaller burst at about 16:00 UTC coincided with ClickHouse memory restarts during data recovery.
+
+**Evidence:**
+
+- Oh My Pi chat rows per span ID: 1.0 until 2026-09-28 14:00 UTC, then 1.03 (16:00), 2.2 (22:00), and 5–7.8 on 2026-09-29.
+- Trace inserts, 14:07–15:07 UTC on 2026-09-29: p50 6.29 s, p95 8.58 s, 1,402 failed of 4,524.
+- Duplicate span rows since 2026-09-28 16:00 UTC: Codex App 91,289 (3.2×), Codex CLI 15,620 (4.1×), Claude Code 13,537 (3.5×), Oh My Pi 26,419 (2.7×); Codex Exec and logs none.
+- Metric samples on 2026-09-28: 3.04M duplicate keys of 35.6M rows; 2026-09-29 not yet measured.
+- Duplicate copies agree on every token, duration, and error field.
+
+**Impact:** From 2026-09-28 16:00 UTC, span-based counts, tokens, durations, and step counts are inflated 2–7× for affected harnesses. The span-derived `trace_summary` span counts and the metric 5- and 30-minute rollups inherit the inflation. The `introspection` facts store is unaffected because it keeps one row per trace and span.
+
+**Cause fix applied 2026-09-29 15:07 UTC:** Insert-path fsync removed; merge fsync (`min_rows_to_fsync_after_merge = 1`) kept. First five minutes after the restart: trace insert p50 0.23 s, p95 1.05 s, no failed inserts, and no new duplicate spans.
+
+**Correction applied 2026-09-29:**
+
+- Spans: `OPTIMIZE ... FINAL DEDUPLICATE` on `signoz_index_v3` partitions 2026-09-28 and 2026-09-29, keyed on the sorting key plus `trace_id` and `span_id`. Rows went from 144,461 to 129,932 and from 182,271 to 49,786; both now equal their unique counts.
+- Metric samples: the same deduplication on `samples_v4` for both days, keyed on the full sorting key. It removed 3,036,203 and 6,874,066 rows.
+- `trace_summary`: deleted and recomputed from deduplicated spans for the 10,688 affected finished traces, plus 2 traces still running at the first pass. Every summary span count now equals the trace's actual span count.
+- Metric rollups: `samples_v4_agg_5m` and `samples_v4_agg_30m` rebuilt per hour for 2026-09-28 and for 2026-09-29 up to 16:00 UTC. Every hour equals its sample count.
+
+**Validation:** Oh My Pi chat spans in SigNoz equal their unique span IDs and the independent `introspection.spans` count: 5,828 on 2026-09-28 and 1,619 on 2026-09-29 up to 15:00 UTC. All 31 SQL panels of both dashboards return data over 30 days.
+
+**Residual:** Deduplication by natural key also removes the rare samples that legitimately shared a key before the incident (about 0.02–0.7% of affected hours).
